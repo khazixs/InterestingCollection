@@ -20,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="true" />
@@ -35,6 +38,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1aIMunV8ErybWNQyppPP9WMzoBm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -389,7 +393,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -422,7 +426,7 @@
       <workItem from="1587023356078" duration="9153000" />
       <workItem from="1587033566197" duration="680000" />
       <workItem from="1587034348977" duration="136000" />
-      <workItem from="1587034527871" duration="487000" />
+      <workItem from="1587034527871" duration="928000" />
     </task>
     <servers />
   </component>
