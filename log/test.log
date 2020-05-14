@@ -1,0 +1,8 @@
+2020-05-13 17:14:10 [main] INFO  :13 - info message
+2020-05-13 17:14:10 [main] WARN  :14 - warn message
+2020-05-13 17:14:10 [main] ERROR :15 - error message
+2020-05-13 17:14:10 [main] FATAL :16 - fatal message
+2020-05-13 17:15:06 [main] ERROR :15 - error message
+2020-05-13 17:15:06 [main] FATAL :16 - fatal message
+2020-05-13 17:28:11 [main] ERROR :15 - error message
+2020-05-13 17:28:11 [main] FATAL :16 - fatal message

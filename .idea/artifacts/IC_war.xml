@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" build-on-make="true" name="IC:war">
-    <output-path>$PROJECT_DIR$/../apache-tomcat-8.5.50/webapps</output-path>
-    <root id="archive" name="IC_war.war">
-      <element id="artifact" artifact-name="IC:war exploded" />
-    </root>
-  </artifact>
-</component>
