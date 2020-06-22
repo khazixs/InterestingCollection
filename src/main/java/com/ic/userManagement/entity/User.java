@@ -24,7 +24,7 @@ public class User implements Serializable {
     private String sex;
     /*存储用户伴侣的userId*/
     private Integer sweatHeart;
-    /*用户权限，用以区分管理员和普通用户*/
+    /*用户权限，用以区分管理员、超级会员、会员和普通用户*/
     private Integer authority;
     /*用户出生日期*/
     private String birthday;

@@ -1,0 +1,28 @@
+GET http://localhost:15672/amqpTest/sendMsg
+
+<> 2020-06-22T034509.404.json
+
+###
+
+GET http://localhost:15672/amqpTest/sendMsg
+
+<> 2020-06-22T034456.404.json
+
+###
+
+GET http://localhost:8080/InterestingCollection_war/amqpTest/sendMsg
+
+###
+
+GET http://localhost/amqpTest/sendMsg
+
+###
+
+GET http://localhost/amqpTest/sendMsg
+
+###
+
+GET http://localhost/amqpTest/sendMsg3
+
+###
+

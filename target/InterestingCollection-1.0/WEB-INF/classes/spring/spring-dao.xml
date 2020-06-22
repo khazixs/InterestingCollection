@@ -22,6 +22,7 @@
     <mvc:annotation-driven/>
     <!--扫描注解-->
     <context:component-scan base-package="com.ic.userManagement.dao"/>
+    <context:component-scan base-package="com.ic.webCrawlers.dao"/>
     <!--加载数据库属性文件-->
     <context:property-placeholder location="classpath:properties/jdbcConfig.properties"/>
 
@@ -43,5 +44,11 @@
         <property name="basePackage" value="com.ic.userManagement.dao"/>
         <property name="sqlSessionFactoryBeanName" value="factory"/>
     </bean>
+
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="datasource" />
+    </bean>
+    <!-- 使用annotation注解方式配置事务 -->
+    <tx:annotation-driven/>
 
 </beans>

@@ -23,4 +23,5 @@
     <mvc:default-servlet-handler/>
     <!-- 4.扫描web相关的bean -->
     <context:component-scan base-package="com.ic.userManagement.controller"/>
+    <context:component-scan base-package="com.ic.webCrawlers.controller"/>
 </beans>

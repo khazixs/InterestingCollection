@@ -35,8 +35,12 @@
         select * from user;
     </select>
 
+    <select id="selectByPhone" parameterType="String" resultMap="userMap">
+        select * from user where phone = #{phone};
+    </select>
+
     <insert id="insertUser" keyProperty="id"  useGeneratedKeys="true" parameterType="com.ic.userManagement.entity.User">
-        insert into account(user_id,user_name,password,created_time,user_type,phone,sex,sweat_heart,authority,birthday,description,email,user_level,coin,head_shot,version)value (#{user.userId},#{user.userName},#{user.password},#{user.createdTime},#{user.userType},#{user.phone},#{user.sex},#{user.sweatHeart},#{user.authority},#{user.birthday},#{user.description},#{user.email},#{user.userLevel},#{user.coin},#{user.headShot},#{user.version})
+        insert into user(user_id,user_name,password,created_time,user_type,phone,sex,sweat_heart,authority,birthday,description,email,user_level,coin,head_shot,version)value (#{user.userId},#{user.userName},#{user.password},#{user.createdTime},#{user.userType},#{user.phone},#{user.sex},#{user.sweatHeart},#{user.authority},#{user.birthday},#{user.description},#{user.email},#{user.userLevel},#{user.coin},#{user.headShot},#{user.version})
     </insert>
     
     <delete id="deleteById" parameterType="int">

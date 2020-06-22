@@ -1,26 +1,21 @@
 package com.ic.userManagement.controller;
 
+import com.ic.userManagement.entity.User;
 import com.ic.userManagement.service.UserService;
-import org.apache.commons.logging.LogFactory;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.mock.web.MockHttpServletResponse;
 import org.springframework.mock.web.MockHttpSession;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.ResultActions;
-import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
 import javax.annotation.Resource;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
-
 
 @RunWith(SpringJUnit4ClassRunner.class)//表示该测试用例是运用junit4进行测试，也可以换成其他测试框架
 @ContextConfiguration(locations = {"classpath:spring/spring-*.xml"})
@@ -46,7 +41,7 @@ public class TestUserController {
 
     @Test
     public void testGetUserByUserId() throws Exception {
-        String responseString = mockMvc.perform(get("/user/getUserByUserId").param("userId","123"))
+        String responseString = mockMvc.perform(get("/user/getUserByUserId").param("userId", "123"))
                 .andReturn().getResponse().getContentAsString();
         System.out.println(responseString);
     }
@@ -54,6 +49,36 @@ public class TestUserController {
     @Test
     public void testGetAll() throws Exception {
         String responseString = mockMvc.perform(get("/user/getAll"))
+                .andReturn().getResponse().getContentAsString();
+        System.out.println(responseString);
+    }
+
+    @Test
+    public void testRegister() throws Exception {
+        User u = new User();
+        u.setPhone("13402823694");
+        u.setPassword("123456");
+        u.setHeadShot(null);
+        String responseString = mockMvc.perform(get("/user/register").requestAttr("user", u))
+                .andReturn().getResponse().getContentAsString();
+        System.out.println(responseString);
+    }
+
+    @Test
+    public void testLogin() throws Exception {
+        User u = new User();
+        u.setPhone("13402823693");
+        u.setPassword("123456");
+        String responseString = mockMvc.perform(get("/user/login").requestAttr("user", u))
+                .andReturn().getResponse().getContentAsString();
+        System.out.println(responseString);
+    }
+
+    @Test
+    public void testUpdate() throws Exception {
+        User u = new User();
+        u.setUserType(2);
+        String responseString = mockMvc.perform(get("/user/updateUser").requestAttr("user", u))
                 .andReturn().getResponse().getContentAsString();
         System.out.println(responseString);
     }
