@@ -25,227 +25,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eed7eb02-d3fc-487f-82bd-06f1c8aaed1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/InterestingCollection.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Tomcat_8_5_50.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-client.env.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/aboutTree/BuildTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/aboutDouble/DoubleCalculate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/aboutDouble/UseNumberFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/aboutRegex/UseRegex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/binarySearch/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/fianl/ResearchFinal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/fibonacci/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/intAndInteger/IntAndInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/mergeSort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/mergeSort/MergeSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/mergeSort/MergeSort3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/mergeSort/MergeSort4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/quickSort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/quickSort/QuickSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/quickSort/QuickSort3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/researchStatic/ResearchStatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/singleton/Singleton1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/singleton/Singleton2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/DecodeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/FindOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/FindTheLongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/IsSubtree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/MaxProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/MyAtoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/ReverseKGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/Rob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/SubarraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/ValidPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/WaysToChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/AboutTimeConvert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/BoundedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/Join.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/Piped.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/TestBoundedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/TestSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/TestWriteReadLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/WaitNotify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/useCountDownLatch/CountDownLatchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/useCountDownLatch/JoinCountDownLatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/useCyclicBarrier/BankWaterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/useCyclicBarrier/CyclicBarrierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/useCyclicBarrier/CyclicBarrierTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/useDelayQueue/MyDelayedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/useDelayQueue/MyDelayedService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/useDelayQueue/MyDelayedServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/useDelayQueue/StudentTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/useDelayQueue/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/useDelayQueue/TestMyDelayedService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/useExchanger/ExchangerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/useSemaphore/SemaphoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/service/impl/Consumer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/service/impl/Consumer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/service/impl/Consumer3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/userManagement/entity/ServerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/userManagement/utils/CheckUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/webCrawlers/dao/StoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/webCrawlers/entity/Story.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/webCrawlers/service/WebCrawlerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/webCrawlers/service/impl/WebCrawlerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ic/webCrawlers/dao/StoryDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/rabbitmq.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-rabbitmq.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/userInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ic/learn/controller/AmqpTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ic/userManagement/service/TestRedis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ic/userManagement/service/impl/TestRabbitMQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/aboutTree/BuildTree$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/aboutTree/BuildTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/exercise/DecodeString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/exercise/FindOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/exercise/FindTheLongestSubstring.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/exercise/Group.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/exercise/IsSubtree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/exercise/Jump.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/exercise/LevelOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/exercise/LongestPalindrome.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/exercise/MaxProduct.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/exercise/MaxSubArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/exercise/MergeTwoLists.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/exercise/MyAtoi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/exercise/ReverseKGroup.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/exercise/Rob.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/exercise/SingleNumber3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/exercise/SubarraySum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/exercise/TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/exercise/ValidPalindrome.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/algorithm/exercise/test/TestArrayListClear.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/AboutTimeConvert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/BoundedQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/Join$JoinThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/Join.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/Piped$PrintThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/Piped.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/TestBoundedQueue$addThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/TestBoundedQueue$rmThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/TestBoundedQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/TestSynchronized.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/TestWriteReadLock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/WaitNotify$NotifyThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/WaitNotify$WaitThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/WaitNotify.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/useCountDownLatch/CountDownLatchTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/useCountDownLatch/JoinCountDownLatch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/useCyclicBarrier/BankWaterService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/useCyclicBarrier/CyclicBarrierTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/useCyclicBarrier/CyclicBarrierTest2$A.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/useCyclicBarrier/CyclicBarrierTest2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/useDelayQueue/MyDelayedEvent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/useDelayQueue/MyDelayedService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/useDelayQueue/MyDelayedServiceImpl$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/useDelayQueue/MyDelayedServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/useDelayQueue/StudentTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/useDelayQueue/Task.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/useDelayQueue/TestMyDelayedService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/useExchanger/ExchangerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/useSemaphore/SemaphoreTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/learn/concurrent/useSemaphore/SemaphoreTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/userManagement/utils/CheckUp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/log/test.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/lib/log4j-api-2.10.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/lib/log4j-core-2.10.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/lib/log4j-web-2.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/lib/slf4j-simple-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/aboutTree/BuildTree$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/aboutTree/BuildTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/DecodeString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/FindOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/FindTheLongestSubstring.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/Group.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/IsSubtree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/MaxProduct.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/MyAtoi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/ReverseKGroup.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/Rob.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/SubarraySum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/ValidPalindrome.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/AboutTimeConvert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/BoundedQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/Join$JoinThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/Join.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/Piped$PrintThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/Piped.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/TestBoundedQueue$addThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/TestBoundedQueue$rmThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/TestBoundedQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/TestSynchronized.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/TestWriteReadLock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/WaitNotify$NotifyThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/WaitNotify$WaitThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/WaitNotify.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/useCountDownLatch/CountDownLatchTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/useCountDownLatch/JoinCountDownLatch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/useCyclicBarrier/BankWaterService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/useCyclicBarrier/CyclicBarrierTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/useCyclicBarrier/CyclicBarrierTest2$A.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/useCyclicBarrier/CyclicBarrierTest2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/useDelayQueue/MyDelayedEvent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/useDelayQueue/MyDelayedService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/useDelayQueue/MyDelayedServiceImpl$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/useDelayQueue/MyDelayedServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/useDelayQueue/StudentTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/useDelayQueue/Task.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/useDelayQueue/TestMyDelayedService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/useExchanger/ExchangerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/useSemaphore/SemaphoreTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/useSemaphore/SemaphoreTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/userManagement/entity/ServerResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/userManagement/utils/CheckUp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/webCrawlers/dao/StoryDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/webCrawlers/dao/StoryDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/webCrawlers/entity/Story.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/webCrawlers/service/WebCrawlerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/webCrawlers/service/impl/WebCrawlerServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/ic/userManagement/service/TestRedis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/InterestingCollection_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/InterestingCollection_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/mergeSort/MergeSort5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/quickSort/QuickSort4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/entity/Commodity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/entity/TestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/map/UseTreeMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/userManagement/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/userManagement/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/userManagement/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/userManagement/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/userManagement/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/userManagement/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/userManagement/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/userManagement/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ic/userManagement/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ic/userManagement/dao/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ic/userManagement/controller/TestUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ic/userManagement/controller/TestUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/InterestingCollection-1.0/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/userManagement/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/userManagement/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/userManagement/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/userManagement/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/userManagement/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/userManagement/dao/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/userManagement/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/userManagement/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/userManagement/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/com/ic/userManagement/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/spring/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/spring/spring-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/spring/spring-redis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/spring/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/spring/spring-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/classes/spring/spring-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/InterestingCollection-1.0/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/userManagement/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/userManagement/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/userManagement/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/userManagement/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/userManagement/dao/userDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/userManagement/dao/userDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/userManagement/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/userManagement/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/userManagement/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/userManagement/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-redis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ic/userManagement/controller/TestUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ic/userManagement/controller/TestUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/WaitNotify$NotifyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/WaitNotify$NotifyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/WaitNotify$WaitThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/WaitNotify$WaitThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/WaitNotify.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/WaitNotify.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,10 +58,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="FxmlFile" />
         <option value="HTTP Public Environment File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -311,7 +99,7 @@
     <property name="project.structure.side.proportion" value="0.5455382" />
     <property name="rest.client.default.execution.environment" value="dev" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -350,12 +138,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRabbitMQ.testRabbitMQ">
-    <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
-      <method v="2" />
+  <component name="RunManager" selected="JUnit.QuickSort4.test">
+    <configuration name="UseTreeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.map.UseTreeMap" />
+      <module name="InterestingCollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ic.learn.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="generated-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" runType="Run single request">
-      <method v="2" />
+    <configuration name="MergeSort5.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InterestingCollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ic.learn.algorithm.again.mergeSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ic.learn.algorithm.again.mergeSort" />
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.again.mergeSort.MergeSort5" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort4.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InterestingCollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ic.learn.algorithm.again.quickSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ic.learn.algorithm.again.quickSort" />
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.again.quickSort.QuickSort4" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TestRabbitMQ" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InterestingCollection" />
@@ -383,22 +210,6 @@
       <option name="PACKAGE_NAME" value="com.ic.userManagement.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.ic.userManagement.service.impl.TestRabbitMQ" />
       <option name="METHOD_NAME" value="testRabbitMQ" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRedis.testHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="InterestingCollection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ic.userManagement.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ic.userManagement.service" />
-      <option name="MAIN_CLASS_NAME" value="com.ic.userManagement.service.TestRedis" />
-      <option name="METHOD_NAME" value="testHash" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -470,20 +281,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 8.5.50" />
-      <item itemvalue="JUnit.TestRedis.testHash" />
-      <item itemvalue="HTTP Request.generated-requests#1" />
-      <item itemvalue="HTTP Request.generated-requests#2" />
+      <item itemvalue="Application.UseTreeMap" />
       <item itemvalue="JUnit.TestRabbitMQ.testRabbitMQ" />
       <item itemvalue="JUnit.TestRabbitMQ" />
+      <item itemvalue="JUnit.MergeSort5.test" />
+      <item itemvalue="JUnit.QuickSort4.test" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.50" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QuickSort4.test" />
+        <item itemvalue="JUnit.MergeSort5.test" />
+        <item itemvalue="Application.UseTreeMap" />
         <item itemvalue="JUnit.TestRabbitMQ.testRabbitMQ" />
         <item itemvalue="JUnit.TestRabbitMQ" />
-        <item itemvalue="HTTP Request.generated-requests#2" />
-        <item itemvalue="HTTP Request.generated-requests#1" />
-        <item itemvalue="JUnit.TestRedis.testHash" />
       </list>
     </recent_temporary>
   </component>
@@ -564,6 +375,10 @@
       <workItem from="1592485896917" duration="15148000" />
       <workItem from="1592573085223" duration="1730000" />
       <workItem from="1592790799871" duration="9259000" />
+      <workItem from="1592824001416" duration="580000" />
+      <workItem from="1592893965534" duration="8962000" />
+      <workItem from="1593306470609" duration="2415000" />
+      <workItem from="1593330595935" duration="1983000" />
     </task>
     <servers />
   </component>
@@ -618,10 +433,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="649" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1588489236353" />
-    <state x="449" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1592573687533">
+    <state x="449" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1592902941638">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="449" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1592573687533" />
+    <state x="449" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1592902941638" />
     <state x="627" y="272" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587033651137">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -666,22 +481,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="270" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592278519937" />
-    <state width="1867" height="512" key="GridCell.Tab.0.bottom" timestamp="1592813944725">
+    <state width="1867" height="326" key="GridCell.Tab.0.bottom" timestamp="1592915389260">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="512" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592813944725" />
-    <state width="1867" height="512" key="GridCell.Tab.0.center" timestamp="1592813944725">
+    <state width="1867" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592915389260" />
+    <state width="1867" height="326" key="GridCell.Tab.0.center" timestamp="1592915389260">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="512" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592813944725" />
-    <state width="1867" height="512" key="GridCell.Tab.0.left" timestamp="1592813944725">
+    <state width="1867" height="326" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592915389260" />
+    <state width="1867" height="326" key="GridCell.Tab.0.left" timestamp="1592915389260">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="512" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592813944725" />
-    <state width="1867" height="512" key="GridCell.Tab.0.right" timestamp="1592813944725">
+    <state width="1867" height="326" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592915389260" />
+    <state width="1867" height="326" key="GridCell.Tab.0.right" timestamp="1592915389260">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="512" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592813944725" />
+    <state width="1867" height="326" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592915389260" />
     <state width="1869" height="338" key="GridCell.Tab.1.bottom" timestamp="1592370470011">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -718,10 +533,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="535" y="164" key="NewModule_or_Project.wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1587034150087" />
-    <state x="667" y="167" width="1141" height="883" key="SettingsEditor" timestamp="1592811541018">
+    <state x="667" y="167" width="1141" height="883" key="SettingsEditor" timestamp="1592824588225">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="667" y="167" width="1141" height="883" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1592811541018" />
+    <state x="667" y="167" width="1141" height="883" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1592824588225" />
     <state x="418" y="204" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1590807096809">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
