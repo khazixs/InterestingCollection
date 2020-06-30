@@ -1,0 +1,254 @@
+Java面试基础 -- Linux篇
+
+0.日常命令
+cd 目录路径： 跳转到指定目录
+mkdir 目录名称：新增目录
+pwd: 获取当前路径
+su: 切换用户
+ll: 查看当前目录侠的文件和目录
+rm -rf 目录: 递归删除指定目录下的所有文件
+vi 文件：修改文件
+mv 源文件夹名 新文件夹名：移动文件夹到指定目录
+grep：查找想要的信息
+cp -r 源目录名 新目录名：拷贝指定目录中的文件到新目录中
+touch 文件名：创建文件
+find -name 文件名：查找文件
+ls -ahl：查看文件的所有者
+chkconfig --add xxx: 将xxx脚本加入到开机启动项里面
+chkconfig --list：查看添加是否成功
+shutdown -h now：指定现在立即关机；
+shutdown +5 "System will shutdown after 5 minutes"：指定5分钟后关机，同时送出警告信息给登入用户
+reboot： 重开机
+reboot -w：做个重开机的模拟(只有纪录并不会真的重开机)
+
+1. 帮助命令:man,help, info
+help xxx #显示内置命令帮助信息；
+xxx --help #显示外置命令帮助信息;
+man xxx #无内外置之分，显示的内容比help更详细；
+info xxx #得到的内容比man更详细;
+2.查看活动进程的命令：ps,top, pidstat
+
+ps 用于显示系统内的所有进程
+ps-elf 查看所有进程；
+ps -ef | grep java 查看和java有关的所有进程；
+top 用于查看活动进程的CPU和内存信息，能够实时显示系统中各个进程的资源占用情况，
+可以按照CPU、内存的使用情况和执行时间对进程进行排序。
+pidstat 用于监控全部或指定的进程占用系统资源的情况，包括CPU、内存、磁盘I/O、线程切换、线程数等数据。
+pidstat -u/-r/-d -p 进程号 --解释:(-u CPU, -r 内存，-d 磁盘I/O
+
+3.查看日志常用命令：tail,head,cat,more,less,sed
+tail：对文件进行动态监控
+tail -fn 200 test.log 实时监控200行日志
+tail -n 10 test.log 查询最后10行日志
+tail -n +10 test.log 查询10行之后的所有日志
+head -n 10 test.log 查看头10行日志
+head -n -10 test.log 查看除最后10行的其他日志
+cat -n test.log | grep "run" 在test.log中查询包含run的行
+cat test.log 显示test.log中的所有内容
+sed -n '/2019-11-17 16:17:20/,/2019-12-17 16:17:36/p' test.log 查找指定日期范围内的日志
+sed -n '1,3p' test.log 显示第1到3行日志
+more可以显示百分比，回车可以向下一行， 空格可以向下一页，q可以退出查看
+more -4 test.log 每屏显示4行日志
+more +/run test.log 从日志中查找第一个出现"run"字符串的行，并从该处前两行开始显示输出
+cat test.log | more -5 得到test.log中的全部内容并且每次显示5行
+more 仅能向前移动，却不能向后移动
+less test.log test1.log 浏览多个文件
+ps -ef | less -N ps查看进程信息并通过less分页显示同时显示行号
+ps aux|grep redis：查看包括redis字符串的进程
+pgrep redis -a：查看包括redis字符串的进程
+history 查看所有的历史记录
+history | grep xxx 查看历史记录中包含某些指令的记录
+history | more 分页查看记录
+history -c 清空所有的历史记录
+Copy
+打开超大文件: 
+    1. head -10000 slowquery.log > temp.log  将slowquery.log的前10000行日志写入到temp.log中
+    2. tail -10000 slowquery.log > temp.log   将slowquery.log的后10000行日志写入到temp.log中
+    3. sed -n '10,10000p' slowquery.log > temp.log 把slowquery.log第10到10000行的数据写入到temp.log中
+    4. cat catalina.log | grep   '2017-09-06 15:15:42' > test.log  根据查询条件导出
+
+4.压缩文件命令
+tar -zxvf xxxx.gz: 解压文件到当前目录下
+tar -zxvf xxxx.gz -C /usr/local 解压文件到指定位置
+tar -zcvf abc.gz a.txt b.txt c.txt 将这三个文件压缩成abc.gz压缩包
+tar -zcvf abc.gz /abc/ 将指定目录压缩成压缩包
+
+5.杀死一个进程的操作
+Copy
+方法一：把ps的查询结果通过管道给grep查找包含特定字符串的进程, 管道符“|”用来隔开两个命令，管道符左边命令的输出会作为管道符右边命令的输入。
+例如: ps -ef | grep firefox 找到firefox进程的进程号
+然后：kill -s 9 6496   杀死进程
+方法二:  使用pgrep查询某个进程的进程号
+例如：pgrep firefox    
+然后：kill -s 9 6496
+方法三: 使用pkill, pkill无须 “ｓ”，终止信号等级直接跟在 “-“ 后面
+例如：pkill -９ firefox
+
+6.权限命令
+操作系统中每个文件都拥有特定的权限、所属用户和所属组，Linux中权限一般分为读(readable)、写(writable)和执行(excutable)，分为三组。分别对应文件的属主(owner)，属组(group)和其他用户(other)，通过 ls -l 命令我们可以 查看某个目录下的文件或目录的权限
+文件的类型：
+d： 代表目录
+-： 代表文件
+l： 代表软链接（可以认为是window中的快捷方式）
+
+Linux中权限分为以下几种：
+r：代表权限是可读，可以用数字4表示
+w：代表权限是可写，可以用数字2表示
+x：代表权限是可执行，可以用数字1表示
+对文件和目录而言，读写执行表示不同的意义。对于文件:
+权限名称	可执行操作
+r	可以使用cat查看文件的内容
+w	可以修改文件的内容
+x	可以将其运行为二进制文件
+
+对于目录：
+权限名称	可执行操作
+r	可以查看目录下列表
+w	可以创建和删除目录下文件
+x	可以使用cd进入目录
+超级用户可以无视普通用户的权限，即使文件目录权限是000，依旧可以访问。 在linux中的每个用户必须属于一个组，不能独立于组外
+
+Copy
+修改文件/目录的权限的命令：chmod
+示例：
+修改/test下的aaa.txt的权限为属主有全部权限，属主所在的组有读写权限， 其他用户只有读的权限:
+chmod u=rwx,g=rw,o=r aaa.txt
+上述示例还可以使用数字表示：chmod 764 aaa.txt
+更多请看这里
+
+7.查看磁盘情况的命令：free,vmstat,du,df
+显示系统使用和空闲的内存情况，包括物理内存、交互区内存(swap)和内核缓冲区内存
+
+free:
+[ ] -b 　以Byte为单位显示内存使用情况。
+[ ] -k 　以KB为单位显示内存使用情况。
+[ ] -m 　以MB为单位显示内存使用情况。
+[ ] -g   以GB为单位显示内存使用情况。
+[ ] -o 　不显示缓冲区调节列。
+[ ] -s<间隔秒数> 　持续观察内存使用状况。
+[ ] -t 　显示内存总和列。
+[ ] -V 　显示版本信息。 
+例：free -s 10 每隔10秒查看内存的使用情况
+cat /proc/meminfo等价于free命令
+vmstat: 动态的了解系统资源运行情况
+du: 显示每个文件和目录的磁盘使用空间以及文件的大小。
+例： du -h tomcat8.5/ 表示显示tomcat8.5文件夹下每个文件、目录的占用空间
+df: 显示磁盘分区上可以使用的磁盘空间
+例：
+df -a 表示查看全部文件系统，单位默认KB
+df -h 表示以KB、MB、GB的单位来显示，可读性高
+更多内容参考这里
+8.文件传输命令:ftp，scp，rsync，rz，sz
+ftp:先忽略
+
+scp:
+scp -p ./files/yum.log 192.168.214.187:/tmp/demo/ ：表示将当前系统的files目录下的yum日志文件复制到IP为192.168.214.18的机器的/tmp/demo目录下
+
+sz:
+sz test.log: 下载test.log日志文件到windows下
+
+rz:
+文件上传，出现弹出框，选中要上传的文件，确定之后即可上传文件
+
+rsync:
+rsync是可以实现增量备份的工具。配合任务计划，rsync能实现定时或间隔同步，配合inotify或sersync，可以实现触发式的实时同步。rsync可以实现scp的远程拷贝，cp的本地拷贝、rm删除和"ls -l"显示文件列表等功能
+
+9.网络配置相关命令：netstat、ifconfig、ss、tcpdump、traceroute、ping、nslookup、dig、nmap
+ifconfig：查看当前系统的网卡信息. 和ip addr命令类似
+
+ping：查看与某台机器的连接情况
+
+netstat：用于显示各种网络相关信息，如网络连接，路由表，接口状态，masquerade 连接，多播成员等。
+查看当前系统的端口使用：netstat -an
+列出所有端口: netstat -a
+列出所有tcp端口: netstat -at
+列出所有udp端口: netstat -au
+只显示监听端口: netstat -l
+只列出所有监听tcp端口: netstat -lt
+只列出所有监听udp端口: netstat -lu
+只列出所有监听UNIX端口: netstat -lx
+显示所有端口的统计信息： netstat -s
+netstat 将每隔2秒输出网络信息：netstat -t -c 2
+显示核心路由信息：netstat -rn
+找出程序运行的端口：netstat -apn | grep ssh
+找出运行在指定端口的进程：netstat -an | grep ':22'
+查看6379端口占用情况： netstat -ntlp | grep 6379
+
+ss：可以用来获取socket统计信息，可以显示和netstat类似的内容，优势在于它能够显示更多更详细的有关TCP和连接状态的信息，而且比netstat更快速更高效。
+例：ss -l 显示本地打开的所有端口
+ss -pl 显示每个进程具体打开的socket
+ss -t -a 显示所有tcp socket
+ss -u -a 显示所有的UDP Socekt
+ss -o state established '( dport = :smtp or sport = :smtp )' 显示所有已建立的SMTP连接
+ss -o state established '( dport = :http or sport = :http )' 显示所有已建立的HTTP连接
+ss -x src /tmp/.X11-unix/* 找出所有连接X服务器的进程
+ss -s 列出当前socket详细信息
+
+Copy
+ss 与 netstat对比：　　
+    ss命令是iproute工具集（CentOS 最小化安装带有）；netstat命令是net-tools工具集；
+    当服务器的socket连接数量变得非常大时，无论是使用netstat命令还是直接cat /proc/net/tcp，执行速度都会很慢；
+    ss快的秘诀在于，它利用到了TCP协议栈中tcp_diag。tcp_diag是一个用于分析统计的模块，可以获得Linux 内核中第一手的信息，这就确保了ss的快捷高效。
+tcpdump：用于倾倒网络传输数据，执行tcpdump指令可列出经过指定网络界面的数据包文件头
+例： tcpdump 显示TCP包信息
+tcpdump -c 20：显示指定数量包
+tcpdump -c 10 -q：精简模式显示 10个包
+tcpdump -ddd：转换成十进制格式
+traceroute：可以知道信息从你的计算机到互联网另一端的主机是走的什么路径
+例如：
+traceroute -n -m 5 -q 4 -w 3 www.baidu.com
+说明： -n 显示IP地址，不查主机名，  -m 设置跳数   -q 4每个网关发送4个数据包    -w 把对外发探测包的等待响应时间设置为3秒
+traceroute -p 6888 www.baidu.com 探测包使用的基本UDP端口设置6888
+traceroute -r www.baidu.com 绕过正常的路由表，直接发送到网络相连的主机
+nslookup：用于查询DNS的记录，查询域名解析是否正常，在网络故障时用来诊断网络问题。
+例：nslookup www.baidu.com 表示使用本机默认DNS来解析百度地址
+nslookup www.baidu.com 8.8.8.8 表示指定DNS服务器来解析百度地址
+nslookup -d www.baidu.com 表示只要在查询的时候，加上-d参数，即可查询域名的缓存
+nmap
+tcp端口扫描：-sT、-sP
+TCP SYN端口扫描：-sS
+nmap -sS 192.168.137.10 -255 -p 20,21,53-110,30000 --v
+UDP端口扫描：-sU
+TCP ACK扫描：-sA
+dig 命令主要用来从 DNS 域名服务器查询主机地址信息
+dig baidu.com 查询单个主机的信息
+Copy
+注意点：
+linux连接超时，处理方案：
+1. 测试网络是否通：ping 远程IP
+2. 如果能ping通则表示与服务器网络连接是正常，接下来测试端口：telnet 远程ip 端口
+3.如果telnet不上，要考虑服务器是否有防火墙拦截：
+  （1）CentOS7查看防火墙是否运行： firewall-cmd --state
+  （2） CentOS6查看防火墙是否运行：/sbin/service iptables status
+4. 如果防火墙被拦截，需要放行端口。如果防火墙没有拦截，则要考虑服务内部是否配置限定IP访问。MySQL、MongoDB、Redis都有bind选项，用来限定客户端IP
+5. 再检查服务内部是否有其它权限设置，例如MySQL有远程访问配置，Redis有protected-mode改为no
+Copy
+面试题：Linux查看cpu占用率高的进程(阿里面试题)
+面试题：查看占用某端口的进程(阿里面试题)
+面试题：查看某进程监听的端口(阿里面试题)
+面试题：查看系统负载(今日头条面试题)
+面试题：查看进程中线程的状态(蘑菇街面试题)
+
+第一题： 
+可以使用以下命令查使用内存最多的K个进程：ps -aux | sort -k4nr | head -K
+ps -aux中（a指代all——所有的进程，u指代userid——执行该进程的用户id，x指代显示所有程序，不以终端机来区分）
+或者直接用命令：top
+第一题：
+可以使用以下命令查使用CPU最多的K个进程：ps -aux | sort -k3nr | head -K
+第二题：
+查看占用某端口的进程：
+lsof -i:端口号
+netstat -tunlp | grep 端口号
+第三题：
+查看某进程监听的端口：ps -aux | grep tomcat
+第四题：
+查看系统负载：
+top命令查看linux负载：top  
+输入top，会输出top - 01:18:39 up 2 days, 18:54, 1 user, load average: 0.04, 0.03, 0.05 
+//01:18:39：系统当前时间 
+//up 2 days, 18:54 ：系统开机到现在经过了2天
+//1 users：当前1用户在线 
+//load average:0.04, 0.03, 0.05：系统1分钟、5分钟、15分钟的CPU负载信息. 
+第五题：
+查看进程中线程的状态：top -H
+查指定进程的状态：top -H -p <pid>

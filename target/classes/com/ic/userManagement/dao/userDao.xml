@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ic.userManagement.dao.UserDao">
+    <!-- 配置 查询结果的列名和实体类的属性名的对应关系 -->
+    <resultMap id="userMap" type="com.ic.userManagement.entity.User">
+        <!-- 主键字段的对应 -->
+        <id property="id" column="id"/>
+        <!--非主键字段的对应-->
+        <result property="userId" column="user_id"/>
+        <result property="userName" column="user_name"/>
+        <result property="password" column="password"/>
+        <result property="createdTime" column="created_time"/>
+        <result property="userType" column="user_type"/>
+        <result property="phone" column="phone"/>
+        <result property="sex" column="sex"/>
+        <result property="sweatHeart" column="sweat_heart"/>
+        <result property="authority" column="authority"/>
+        <result property="birthday" column="birthday"/>
+        <result property="description" column="description"/>
+        <result property="email" column="email"/>
+        <result property="userLevel" column="user_level"/>
+        <result property="coin" column="coin"/>
+        <result property="headShot" column="head_shot"/>
+        <result property="version" column="version"/>
+    </resultMap>
+
+    <select id="selectByUserId" parameterType="int" resultMap="userMap">
+        select * from user where user_id = #{userId}
+    </select>
+
+    <select id="selectAll" parameterType="int" resultMap="userMap">
+        select * from user;
+    </select>
+
+    <select id="selectByPhone" parameterType="String" resultMap="userMap">
+        select * from user where phone = #{phone};
+    </select>
+
+    <insert id="insertUser" keyProperty="id"  useGeneratedKeys="true" parameterType="com.ic.userManagement.entity.User">
+        insert into user(user_id,user_name,password,created_time,user_type,phone,sex,sweat_heart,authority,birthday,description,email,user_level,coin,head_shot,version)value (#{user.userId},#{user.userName},#{user.password},#{user.createdTime},#{user.userType},#{user.phone},#{user.sex},#{user.sweatHeart},#{user.authority},#{user.birthday},#{user.description},#{user.email},#{user.userLevel},#{user.coin},#{user.headShot},#{user.version})
+    </insert>
+    
+    <delete id="deleteById" parameterType="int">
+        delete from user where id = #{id}
+    </delete>
+
+    <update id="updateUser" parameterType="com.ic.userManagement.entity.User">
+        update user set user_id = #{user.userId},user_name = #{user.userName},password = #{user.password},created_time = #{user.createdTime},user_type = #{user.userType},phone = #{user.phone},sex = #{user.sex},sweat_heart = #{user.sweatHeart},authority = #{user.authority},birthday = #{user.birthday},description = #{user.description},email = #{user.email},user_level = #{user.userLevel},coin = #{user.coin},head_shot = #{user.headShot},version = #{user.version} where id = #{user.id}
+    </update>
+
+</mapper>

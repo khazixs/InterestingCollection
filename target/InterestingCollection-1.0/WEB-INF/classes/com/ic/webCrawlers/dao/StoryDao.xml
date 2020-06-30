@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ic.webCrawlers.dao.StoryDao">
+
+    <!-- 配置 查询结果的列名和实体类的属性名的对应关系 -->
+    <resultMap id="storyMap" type="com.ic.webCrawlers.entity.Story">
+        <!-- 主键字段的对应 -->
+        <id property="id" column="id"/>
+        <!--非主键字段的对应-->
+        <result property="author" column="author"/>
+        <result property="url" column="url"/>
+
+    </resultMap>
+
+    <select id="selectByAuthor" parameterType="String" resultMap="storyMap">
+        select id,author,url from story where author = #{author}
+    </select>
+
+    <select id="selectByUrl" parameterType="String" resultMap="storyMap">
+        select id,author,url from story where url = #{url}
+    </select>
+
+    <insert id="insertStory" keyProperty="id"  useGeneratedKeys="true" parameterType="com.ic.webCrawlers.entity.Story">
+        insert into story(id,author,url) value (#{story.id},#{story.author},#{story.url})
+    </insert>
+
+
+</mapper>
