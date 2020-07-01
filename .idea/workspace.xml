@@ -24,7 +24,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="eed7eb02-d3fc-487f-82bd-06f1c8aaed1d" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="eed7eb02-d3fc-487f-82bd-06f1c8aaed1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/mergeSort/MergeSort5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/again/quickSort/QuickSort4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/entity/Commodity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/entity/TestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/map/UseTreeMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/WaitNotify$NotifyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/WaitNotify$NotifyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/WaitNotify$WaitThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/WaitNotify$WaitThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/WaitNotify.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/concurrent/WaitNotify.class" afterDir="false" />
+    </list>
+>>>>>>> 024cd5ca7fdd0b2d2db9688cfa42ca8ef817b877
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,6 +142,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.Commodity">
     <configuration name="Commodity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ic.learn.entity.Commodity" />
@@ -142,6 +157,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+  <component name="RunManager" selected="JUnit.QuickSort4.test">
+>>>>>>> 024cd5ca7fdd0b2d2db9688cfa42ca8ef817b877
     <configuration name="UseTreeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ic.learn.map.UseTreeMap" />
       <module name="InterestingCollection" />
@@ -187,6 +205,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+=======
+    <configuration name="TestRabbitMQ" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InterestingCollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ic.userManagement.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ic.userManagement.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.ic.userManagement.service.impl.TestRabbitMQ" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> 024cd5ca7fdd0b2d2db9688cfa42ca8ef817b877
     <configuration name="TestRabbitMQ.testRabbitMQ" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InterestingCollection" />
       <extension name="coverage">
@@ -271,6 +307,7 @@
     <list>
       <item itemvalue="Application.UseTreeMap" />
       <item itemvalue="JUnit.TestRabbitMQ.testRabbitMQ" />
+<<<<<<< HEAD
       <item itemvalue="JUnit.MergeSort5.test" />
       <item itemvalue="JUnit.QuickSort4.test" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.50" />
@@ -279,10 +316,23 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Commodity" />
+=======
+      <item itemvalue="JUnit.TestRabbitMQ" />
+      <item itemvalue="JUnit.MergeSort5.test" />
+      <item itemvalue="JUnit.QuickSort4.test" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.50" />
+    </list>
+    <recent_temporary>
+      <list>
+>>>>>>> 024cd5ca7fdd0b2d2db9688cfa42ca8ef817b877
         <item itemvalue="JUnit.QuickSort4.test" />
         <item itemvalue="JUnit.MergeSort5.test" />
         <item itemvalue="Application.UseTreeMap" />
         <item itemvalue="JUnit.TestRabbitMQ.testRabbitMQ" />
+<<<<<<< HEAD
+=======
+        <item itemvalue="JUnit.TestRabbitMQ" />
+>>>>>>> 024cd5ca7fdd0b2d2db9688cfa42ca8ef817b877
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +417,10 @@
       <workItem from="1592893965534" duration="8962000" />
       <workItem from="1593306470609" duration="2415000" />
       <workItem from="1593330595935" duration="1983000" />
+<<<<<<< HEAD
       <workItem from="1593425454523" duration="4151000" />
+=======
+>>>>>>> 024cd5ca7fdd0b2d2db9688cfa42ca8ef817b877
     </task>
     <servers />
   </component>
@@ -470,6 +523,7 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="270" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592278519937" />
+<<<<<<< HEAD
     <state width="1867" height="318" key="GridCell.Tab.0.bottom" timestamp="1593483069517">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -486,6 +540,24 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1867" height="318" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1593483069517" />
+=======
+    <state width="1867" height="326" key="GridCell.Tab.0.bottom" timestamp="1592915389260">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1867" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592915389260" />
+    <state width="1867" height="326" key="GridCell.Tab.0.center" timestamp="1592915389260">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1867" height="326" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592915389260" />
+    <state width="1867" height="326" key="GridCell.Tab.0.left" timestamp="1592915389260">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1867" height="326" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592915389260" />
+    <state width="1867" height="326" key="GridCell.Tab.0.right" timestamp="1592915389260">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1867" height="326" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592915389260" />
+>>>>>>> 024cd5ca7fdd0b2d2db9688cfa42ca8ef817b877
     <state width="1869" height="338" key="GridCell.Tab.1.bottom" timestamp="1592370470011">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
