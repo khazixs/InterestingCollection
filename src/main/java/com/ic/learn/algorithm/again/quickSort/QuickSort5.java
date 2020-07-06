@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
-public class QuickSort3 {
+public class QuickSort5 {
     public void quickSort(int[] nums) {
         if (nums == null || nums.length == 0 || nums.length == 1) {
             return;
@@ -17,8 +17,9 @@ public class QuickSort3 {
             return;
         }
         int base = nums[start];
-        int i = start, j = end;
-        while (i != j) {
+        int i = start;
+        int j = end;
+        while (i < j) {
             while (i < j && nums[j] >= base) {
                 j--;
             }
@@ -26,9 +27,9 @@ public class QuickSort3 {
                 i++;
             }
             if (i < j) {
-                int tmp = nums[i];
+                int t = nums[i];
                 nums[i] = nums[j];
-                nums[j] = tmp;
+                nums[j] = t;
             }
         }
         nums[start] = nums[i];
@@ -39,7 +40,7 @@ public class QuickSort3 {
 
     @Test
     public void test() {
-        int[] nums = new int[]{2, 4, 5, 3, 1, 6, 9, 8, 7, 0};
+        int[] nums = new int[]{2, 4, 3, 1, 7, 5, 8, 6, 9, 0};
         quickSort(nums);
         System.out.println(Arrays.toString(nums));
     }
