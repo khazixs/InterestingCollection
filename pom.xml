@@ -176,6 +176,21 @@
             <version>2.2.5.RELEASE</version>
         </dependency>
 
+        <!--以下两个依赖是为了后端解决跨域问题-->
+        <!-- https://mvnrepository.com/artifact/com.thetransactioncompany/cors-filter -->
+        <dependency>
+            <groupId>com.thetransactioncompany</groupId>
+            <artifactId>cors-filter</artifactId>
+            <version>2.5</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.thetransactioncompany/java-property-utils -->
+        <dependency>
+            <groupId>com.thetransactioncompany</groupId>
+            <artifactId>java-property-utils</artifactId>
+            <version>1.9.1</version>
+        </dependency>
+
     </dependencies>
 
     <!--依赖库-->

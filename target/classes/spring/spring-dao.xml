@@ -17,6 +17,7 @@
     <!--扫描注解-->
     <context:component-scan base-package="com.ic.userManagement.dao"/>
     <context:component-scan base-package="com.ic.webCrawlers.dao"/>
+    <context:component-scan base-package="com.ic.learn.dao"/>
     <!--加载数据库属性文件-->
     <context:property-placeholder location="classpath:properties/jdbcConfig.properties"/>
 
@@ -24,6 +25,14 @@
     <bean id="datasource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="${jdbc.driver}"/>
         <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <!--加载数据源-->
+    <bean id="datasource2" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/ic2"/>
         <property name="username" value="${jdbc.username}"/>
         <property name="password" value="${jdbc.password}"/>
     </bean>
@@ -43,6 +52,6 @@
         <property name="dataSource" ref="datasource" />
     </bean>
     <!-- 使用annotation注解方式配置事务 -->
-    <tx:annotation-driven/>
+<!--    <tx:annotation-driven/>-->
 
 </beans>
