@@ -25,34 +25,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eed7eb02-d3fc-487f-82bd-06f1c8aaed1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/IsSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/MinNumInRotaryArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/MinPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/QueueBaseOnStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/RunningMen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/InterestingCollection-master.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/InterestingCollection.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/annotation/aop/OutputAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/annotation/aop/OutputAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/InterestingCollection.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/IsSubString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/IsSubString.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,7 +81,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5455382" />
     <property name="rest.client.default.execution.environment" value="dev" />
@@ -145,10 +125,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IsSubString">
+  <component name="RunManager" selected="JUnit.RunningMen.test">
     <configuration name="IsSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.IsSubString" />
-      <module name="InterestingCollection" />
+      <module name="InterestingCollection-master" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ic.learn.algorithm.exercise.*" />
@@ -161,19 +143,6 @@
     </configuration>
     <configuration name="MinNumInRotaryArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.MinNumInRotaryArray" />
-      <module name="InterestingCollection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ic.learn.algorithm.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueBaseOnStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.QueueBaseOnStack" />
       <module name="InterestingCollection" />
       <extension name="coverage">
         <pattern>
@@ -201,17 +170,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStudentService.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="InterestingCollection" />
+    <configuration name="RunningMen.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InterestingCollection-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ic.learn.service.impl.*" />
+          <option name="PATTERN" value="com.ic.learn.algorithm.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ic.learn.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.ic.learn.service.impl.TestStudentService" />
+      <option name="PACKAGE_NAME" value="com.ic.learn.algorithm.exercise" />
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.RunningMen" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunningMen.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InterestingCollection-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ic.learn.algorithm.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ic.learn.algorithm.exercise" />
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.RunningMen" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -283,20 +268,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.QueueBaseOnStack" />
       <item itemvalue="Application.MinNumInRotaryArray" />
-      <item itemvalue="JUnit.TestStudentService.test" />
+      <item itemvalue="Application.IsSubString" />
       <item itemvalue="JUnit.MinPathSum.test" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.50" />
-      <item itemvalue="Application.IsSubString" />
+      <item itemvalue="JUnit.RunningMen.test" />
+      <item itemvalue="JUnit.RunningMen.test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunningMen.test" />
+        <item itemvalue="JUnit.RunningMen.test2" />
         <item itemvalue="Application.IsSubString" />
         <item itemvalue="JUnit.MinPathSum.test" />
         <item itemvalue="Application.MinNumInRotaryArray" />
-        <item itemvalue="Application.QueueBaseOnStack" />
-        <item itemvalue="JUnit.TestStudentService.test" />
       </list>
     </recent_temporary>
   </component>
@@ -390,6 +375,7 @@
       <workItem from="1595250662547" duration="2166000" />
       <workItem from="1595421272425" duration="6220000" />
       <workItem from="1595817130423" duration="2481000" />
+      <workItem from="1595842228329" duration="3515000" />
     </task>
     <servers />
   </component>
@@ -412,6 +398,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="629" y="134" key="#IsSubString" timestamp="1595842590882">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="134" key="#IsSubString/0.0.1920.1040@0.0.1920.1040" timestamp="1595842590882" />
     <state x="552" y="166" key="#Plugins" timestamp="1592276310088">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -436,9 +426,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="696" y="257" key="#Web_Browsers/0.0.1920.1050@0.0.1920.1050" timestamp="1592278578327" />
-    <state x="329" y="138" width="1106" height="781" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592811841140">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="329" y="137" width="1106" height="781" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595842390197">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="329" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595842390197" />
     <state x="329" y="138" width="1106" height="781" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592811841140" />
     <state x="649" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588489236353">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -472,29 +463,30 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="394" height="582" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1588866247597" />
-    <state x="690" y="270" key="FileChooserDialogImpl" timestamp="1592278519937">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="690" y="267" key="FileChooserDialogImpl" timestamp="1595842457550">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="690" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595842457550" />
     <state x="690" y="270" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592278519937" />
-    <state width="1867" height="127" key="GridCell.Tab.0.bottom" timestamp="1595819338138">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="679" height="912" key="GridCell.Tab.0.bottom" timestamp="1595845748169">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594001202615" />
+    <state width="679" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595845748169" />
     <state width="1867" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="1867" height="127" key="GridCell.Tab.0.center" timestamp="1595819338138">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="679" height="912" key="GridCell.Tab.0.center" timestamp="1595845748169">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594001202615" />
+    <state width="679" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595845748169" />
     <state width="1867" height="127" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="1867" height="127" key="GridCell.Tab.0.left" timestamp="1595819338138">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="679" height="912" key="GridCell.Tab.0.left" timestamp="1595845748169">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594001202615" />
+    <state width="679" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595845748169" />
     <state width="1867" height="127" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="1867" height="127" key="GridCell.Tab.0.right" timestamp="1595819338138">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="679" height="912" key="GridCell.Tab.0.right" timestamp="1595845748169">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594001202615" />
+    <state width="679" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595845748169" />
     <state width="1867" height="127" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
     <state width="1867" height="390" key="GridCell.Tab.1.bottom" timestamp="1595472833880">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -528,9 +520,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1555" height="247" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592370470000" />
-    <state x="667" y="167" width="1141" height="883" key="SettingsEditor" timestamp="1594801209693">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1595842648435">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1595842648435" />
+    <state x="827" y="294" key="NewModule_or_Project.wizard" timestamp="1595842471661">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="827" y="294" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1595842471661" />
+    <state x="667" y="165" width="1141" height="883" key="SettingsEditor" timestamp="1595842821300">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595842821300" />
     <state x="667" y="167" width="1141" height="883" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1594801209693" />
     <state x="418" y="204" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1590807096809">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -540,9 +541,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="627" y="251" key="extract.method.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1588600854337" />
-    <state x="162" y="59" key="new project wizard" timestamp="1589249371453">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="162" y="58" key="new project wizard" timestamp="1595842442149">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="162" y="58" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1595842442149" />
     <state x="162" y="59" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1589249371453" />
     <state x="642" y="93" key="refactoring.ChangeSignatureDialog" timestamp="1590312041412">
       <screen x="0" y="0" width="1920" height="1050" />
