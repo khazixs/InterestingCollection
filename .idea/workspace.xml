@@ -25,33 +25,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eed7eb02-d3fc-487f-82bd-06f1c8aaed1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/annotation/Output.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/annotation/aop/OutputAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/dao/TableDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/entity/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ic/learn/dao/TableDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ic/learn/service/impl/TestStudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/InterestingCollection_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/InterestingCollection_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/IsSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/MinNumInRotaryArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/MinPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/QueueBaseOnStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mindMaster/JVM.emmx" beforeDir="false" afterPath="$PROJECT_DIR$/mindMaster/JVM.emmx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mindMaster/数据库MySQL.emmx" beforeDir="false" afterPath="$PROJECT_DIR$/mindMaster/数据库MySQL.emmx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/annotation/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/annotation/DataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/MoveNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/MoveNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-rabbitmq.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-rabbitmq.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ic/userManagement/service/impl/TestRabbitMQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/annotation/DataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/annotation/DataSource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/MoveNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/MoveNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-rabbitmq.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-rabbitmq.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ic/userManagement/service/impl/TestRabbitMQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/InterestingCollection-master.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/InterestingCollection.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/annotation/aop/OutputAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/annotation/aop/OutputAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/InterestingCollection.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,22 +145,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestStudentService.test">
-    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.again.insertSort.InsertSort" />
-      <module name="InterestingCollection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ic.learn.algorithm.again.insertSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoveNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.MoveNum" />
+  <component name="RunManager" selected="Application.IsSubString">
+    <configuration name="IsSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.IsSubString" />
       <module name="InterestingCollection" />
       <extension name="coverage">
         <pattern>
@@ -190,33 +159,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRedis.testRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinNumInRotaryArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.MinNumInRotaryArray" />
       <module name="InterestingCollection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ic.userManagement.service.*" />
+          <option name="PATTERN" value="com.ic.learn.algorithm.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ic.userManagement.service" />
-      <option name="MAIN_CLASS_NAME" value="com.ic.userManagement.service.TestRedis" />
-      <option name="METHOD_NAME" value="testRedis" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStudentService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueBaseOnStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.QueueBaseOnStack" />
       <module name="InterestingCollection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ic.learn.service.impl.*" />
+          <option name="PATTERN" value="com.ic.learn.algorithm.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ic.learn.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.ic.learn.service.impl.TestStudentService" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinPathSum.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InterestingCollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ic.learn.algorithm.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ic.learn.algorithm.exercise" />
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.MinPathSum" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -303,20 +283,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.InsertSort" />
-      <item itemvalue="Application.MoveNum" />
+      <item itemvalue="Application.QueueBaseOnStack" />
+      <item itemvalue="Application.MinNumInRotaryArray" />
       <item itemvalue="JUnit.TestStudentService.test" />
-      <item itemvalue="JUnit.TestRedis.testRedis" />
-      <item itemvalue="JUnit.TestStudentService" />
+      <item itemvalue="JUnit.MinPathSum.test" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.50" />
+      <item itemvalue="Application.IsSubString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsSubString" />
+        <item itemvalue="JUnit.MinPathSum.test" />
+        <item itemvalue="Application.MinNumInRotaryArray" />
+        <item itemvalue="Application.QueueBaseOnStack" />
         <item itemvalue="JUnit.TestStudentService.test" />
-        <item itemvalue="JUnit.TestStudentService" />
-        <item itemvalue="JUnit.TestRedis.testRedis" />
-        <item itemvalue="Application.MoveNum" />
-        <item itemvalue="Application.InsertSort" />
       </list>
     </recent_temporary>
   </component>
@@ -407,7 +387,9 @@
       <workItem from="1594736202720" duration="1256000" />
       <workItem from="1594799211898" duration="14065000" />
       <workItem from="1594885663266" duration="18045000" />
-      <workItem from="1595250662547" duration="953000" />
+      <workItem from="1595250662547" duration="2166000" />
+      <workItem from="1595421272425" duration="6220000" />
+      <workItem from="1595817130423" duration="2481000" />
     </task>
     <servers />
   </component>
@@ -466,18 +448,6 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="449" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1595160440738" />
-    <state x="627" y="272" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587033651137">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="627" y="272" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1587033651137" />
-    <state x="502" y="147" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1586435554453">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="502" y="147" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586435554453" />
-    <state x="452" y="130" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1586419069057">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="452" y="130" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1050@0.0.1920.1050" timestamp="1586419069057" />
     <state x="732" y="427" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1588322652699">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -490,10 +460,6 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="571" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1587432079891" />
-    <state x="714" y="375" width="491" height="309" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586696959719">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="714" y="375" width="491" height="309" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1050@0.0.1920.1050" timestamp="1586696959719" />
     <state x="714" y="398" width="414" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1588378852139">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -510,42 +476,42 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="270" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592278519937" />
-    <state width="1867" height="390" key="GridCell.Tab.0.bottom" timestamp="1595250573634">
+    <state width="1867" height="127" key="GridCell.Tab.0.bottom" timestamp="1595819338138">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594001202615" />
-    <state width="1867" height="390" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595250573634" />
-    <state width="1867" height="390" key="GridCell.Tab.0.center" timestamp="1595250573634">
+    <state width="1867" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
+    <state width="1867" height="127" key="GridCell.Tab.0.center" timestamp="1595819338138">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594001202615" />
-    <state width="1867" height="390" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595250573634" />
-    <state width="1867" height="390" key="GridCell.Tab.0.left" timestamp="1595250573634">
+    <state width="1867" height="127" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
+    <state width="1867" height="127" key="GridCell.Tab.0.left" timestamp="1595819338138">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594001202615" />
-    <state width="1867" height="390" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595250573634" />
-    <state width="1867" height="390" key="GridCell.Tab.0.right" timestamp="1595250573634">
+    <state width="1867" height="127" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
+    <state width="1867" height="127" key="GridCell.Tab.0.right" timestamp="1595819338138">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594001202615" />
-    <state width="1867" height="390" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595250573634" />
-    <state width="1867" height="390" key="GridCell.Tab.1.bottom" timestamp="1595250573635">
+    <state width="1867" height="127" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
+    <state width="1867" height="390" key="GridCell.Tab.1.bottom" timestamp="1595472833880">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="390" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595250573635" />
-    <state width="1867" height="390" key="GridCell.Tab.1.center" timestamp="1595250573634">
+    <state width="1867" height="390" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595472833880" />
+    <state width="1867" height="390" key="GridCell.Tab.1.center" timestamp="1595472833880">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="390" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595250573634" />
-    <state width="1867" height="390" key="GridCell.Tab.1.left" timestamp="1595250573634">
+    <state width="1867" height="390" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595472833880" />
+    <state width="1867" height="390" key="GridCell.Tab.1.left" timestamp="1595472833880">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="390" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595250573634" />
-    <state width="1867" height="390" key="GridCell.Tab.1.right" timestamp="1595250573635">
+    <state width="1867" height="390" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595472833880" />
+    <state width="1867" height="390" key="GridCell.Tab.1.right" timestamp="1595472833880">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="390" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595250573635" />
+    <state width="1867" height="390" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595472833880" />
     <state width="1555" height="247" key="GridCell.Tab.2.bottom" timestamp="1592370470000">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -562,10 +528,6 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1555" height="247" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592370470000" />
-    <state x="535" y="164" key="NewModule_or_Project.wizard" timestamp="1587034150087">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="535" y="164" key="NewModule_or_Project.wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1587034150087" />
     <state x="667" y="167" width="1141" height="883" key="SettingsEditor" timestamp="1594801209693">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
