@@ -25,9 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eed7eb02-d3fc-487f-82bd-06f1c8aaed1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/RunningMen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/CalculateObjectSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/TestEscapeAnalysis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/IsSubString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/IsSubString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/RunningMen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/RunningMen.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +88,7 @@
     <property name="project.structure.side.proportion" value="0.5455382" />
     <property name="rest.client.default.execution.environment" value="dev" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -125,7 +127,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RunningMen.test">
+  <component name="RunManager" selected="Application.CalculateObjectSize">
+    <configuration name="CalculateObjectSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.test.CalculateObjectSize" />
+      <module name="InterestingCollection-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ic.learn.algorithm.exercise.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IsSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -141,12 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinNumInRotaryArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.MinNumInRotaryArray" />
-      <module name="InterestingCollection" />
+    <configuration name="TestEscapeAnalysis" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.test.TestEscapeAnalysis" />
+      <module name="InterestingCollection-master" />
+      <option name="VM_PARAMETERS" value="-Xmx10m -Xms10m -XX:+PrintGC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ic.learn.algorithm.exercise.*" />
+          <option name="PATTERN" value="com.ic.learn.algorithm.exercise.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -268,20 +284,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MinNumInRotaryArray" />
+      <item itemvalue="Application.TestEscapeAnalysis" />
       <item itemvalue="Application.IsSubString" />
       <item itemvalue="JUnit.MinPathSum.test" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.50" />
       <item itemvalue="JUnit.RunningMen.test" />
       <item itemvalue="JUnit.RunningMen.test2" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.50" />
+      <item itemvalue="Application.CalculateObjectSize" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculateObjectSize" />
         <item itemvalue="JUnit.RunningMen.test" />
         <item itemvalue="JUnit.RunningMen.test2" />
         <item itemvalue="Application.IsSubString" />
         <item itemvalue="JUnit.MinPathSum.test" />
-        <item itemvalue="Application.MinNumInRotaryArray" />
       </list>
     </recent_temporary>
   </component>
@@ -376,6 +393,7 @@
       <workItem from="1595421272425" duration="6220000" />
       <workItem from="1595817130423" duration="2481000" />
       <workItem from="1595842228329" duration="3515000" />
+      <workItem from="1595848457760" duration="1422000" />
     </task>
     <servers />
   </component>
@@ -414,6 +432,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="452" y="105" key="#SQL_Dialects/0.0.1920.1050@0.0.1920.1050" timestamp="1591437783559" />
+    <state x="629" y="134" key="#TestEscapeAnalysis" timestamp="1595848625428">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="134" key="#TestEscapeAnalysis/0.0.1920.1040@0.0.1920.1040" timestamp="1595848625428" />
     <state x="610" y="0" width="785" height="1050" key="#Tomcat_8.5.50" timestamp="1592279286050">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -426,10 +448,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="696" y="257" key="#Web_Browsers/0.0.1920.1050@0.0.1920.1050" timestamp="1592278578327" />
-    <state x="329" y="137" width="1106" height="781" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595842390197">
+    <state x="236" y="303" width="1092" height="528" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595848797657">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="329" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595842390197" />
+    <state x="236" y="303" width="1092" height="528" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595848797657" />
     <state x="329" y="138" width="1106" height="781" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592811841140" />
     <state x="649" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588489236353">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -468,25 +490,25 @@
     </state>
     <state x="690" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595842457550" />
     <state x="690" y="270" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592278519937" />
-    <state width="679" height="912" key="GridCell.Tab.0.bottom" timestamp="1595845748169">
+    <state width="264" height="919" key="GridCell.Tab.0.bottom" timestamp="1595849618069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="679" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595845748169" />
+    <state width="264" height="919" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595849618069" />
     <state width="1867" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="679" height="912" key="GridCell.Tab.0.center" timestamp="1595845748169">
+    <state width="264" height="919" key="GridCell.Tab.0.center" timestamp="1595849618068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="679" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595845748169" />
+    <state width="264" height="919" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595849618068" />
     <state width="1867" height="127" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="679" height="912" key="GridCell.Tab.0.left" timestamp="1595845748169">
+    <state width="264" height="919" key="GridCell.Tab.0.left" timestamp="1595849618068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="679" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595845748169" />
+    <state width="264" height="919" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595849618068" />
     <state width="1867" height="127" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="679" height="912" key="GridCell.Tab.0.right" timestamp="1595845748169">
+    <state width="264" height="919" key="GridCell.Tab.0.right" timestamp="1595849618069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="679" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595845748169" />
+    <state width="264" height="919" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595849618069" />
     <state width="1867" height="127" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
     <state width="1867" height="390" key="GridCell.Tab.1.bottom" timestamp="1595472833880">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -528,10 +550,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="827" y="294" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1595842471661" />
-    <state x="667" y="165" width="1141" height="883" key="SettingsEditor" timestamp="1595842821300">
+    <state x="667" y="165" width="1141" height="883" key="SettingsEditor" timestamp="1595849126303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595842821300" />
+    <state x="667" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595849126303" />
     <state x="667" y="167" width="1141" height="883" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1594801209693" />
     <state x="418" y="204" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1590807096809">
       <screen x="0" y="0" width="1920" height="1050" />
