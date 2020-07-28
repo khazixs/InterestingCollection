@@ -25,11 +25,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eed7eb02-d3fc-487f-82bd-06f1c8aaed1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/CalculateObjectSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/TestEscapeAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/DemoClass1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/ILog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/OutOfStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ClosedPackage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/RunningMen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/RunningMen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/aboutGraph/MyGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/MyGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/aboutList/CombineLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/CombineLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/aboutList/ComplexLinkedListClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/ComplexLinkedListClone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/aboutList/IsCircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/IsCircularLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/aboutList/LinkNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/LinkNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/aboutList/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/aboutList/RecorderOddEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/RecorderOddEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/aboutStack/GetMinInStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/GetMinInStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/aboutStack/IsPopOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/IsPopOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/aboutStack/TestGetMinInStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/TestGetMinInStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/aboutString/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/aboutString/PermutationAgain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/PermutationAgain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/aboutTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/aboutTree/BinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/BinaryTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/aboutTree/BuildTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/BuildTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/aboutTree/FindSumPathInTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/FindSumPathInTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/aboutTree/SerializeBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/SerializeBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/classic/GetTranslation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/GetTranslation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/classic/LongestSubstringWithoutDuplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/LongestSubstringWithoutDuplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/classic/MaxValueOfGift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/MaxValueOfGift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/classic/QueenEight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/QueenEight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/classic/SlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/SlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/t/Climb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/exam/Climb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/t/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/exam/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/t/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/exam/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/t/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/exam/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/t/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/exam/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/t/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/exam/Main5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/t/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/exam/Main6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/t/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/exam/Main7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/t/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/exam/Path.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/CalculateObjectSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/CalculateObjectSize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/TestArrayListClear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/TestArrayListClear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/TestConstruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/TestConstruct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/TestConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/TestConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/TestDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/TestDouble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/TestEscapeAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/TestEscapeAnalysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/TestFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/TestFinal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/TestFunctionParamTransmit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/TestFunctionParamTransmit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/TestInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/TestInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/TestInterface2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/TestInterface2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/TestLinkedTransferQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/TestLinkedTransferQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/TestMathRound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/TestMathRound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/TestRegex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/TestRegex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/TestScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/TestScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/test/TestSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/TestSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +92,7 @@
         <option value="HTML File" />
         <option value="FxmlFile" />
         <option value="HTTP Public Environment File" />
+        <option value="JavaScript File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -73,7 +124,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -91,20 +142,8 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\project\InterestingCollection\src\main\resources\com\ic\webCrawlers\dao" />
-      <recent name="F:\project\InterestingCollection\src\main\resources" />
-      <recent name="F:\project\InterestingCollection\src\main\resources\log" />
-      <recent name="F:\project\InterestingCollection\src\main\webapp\WEB-INF" />
-      <recent name="F:\project\InterestingCollection\src\main\resources\com" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ic.learn" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ic.userManagement.utils" />
-      <recent name="com.ic.learn.algorithm.aboutString" />
-      <recent name="com.ic.learn.algorithm.aboutTree" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\project\InterestingCollection\src\main\java\com\ic\learn\algorithm\exercise" />
@@ -112,6 +151,18 @@
       <recent name="F:\project\InterestingCollections\src\main\java\com\ic\learn\algorithm\aboutTree" />
       <recent name="F:\project\InterestingCollections\src\test\java\com\ic" />
       <recent name="F:\project\InterestingCollections\src\main\resources\com\ic" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ic.userManagement.utils" />
+      <recent name="com.ic.learn.algorithm.aboutString" />
+      <recent name="com.ic.learn.algorithm.aboutTree" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\InterestingCollection-master\src\main\resources\spring" />
+      <recent name="E:\project\InterestingCollection-master\src\main\resources\com\ic\userManagement" />
+      <recent name="F:\project\InterestingCollection\src\main\resources\com\ic\webCrawlers\dao" />
+      <recent name="F:\project\InterestingCollection\src\main\resources" />
+      <recent name="F:\project\InterestingCollection\src\main\resources\log" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -127,13 +178,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CalculateObjectSize">
+  <component name="RunManager" selected="Application.DemoClass1">
     <configuration name="CalculateObjectSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.test.CalculateObjectSize" />
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.others.CalculateObjectSize" />
       <module name="InterestingCollection-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ic.learn.algorithm.exercise.test.*" />
+          <option name="PATTERN" value="com.ic.learn.others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,14 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.IsSubString" />
+    <configuration name="DemoClass1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.others.DemoClass1" />
       <module name="InterestingCollection-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ic.learn.algorithm.exercise.*" />
+          <option name="PATTERN" value="com.ic.learn.others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,31 +206,15 @@
       </method>
     </configuration>
     <configuration name="TestEscapeAnalysis" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.test.TestEscapeAnalysis" />
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.others.TestEscapeAnalysis" />
       <module name="InterestingCollection-master" />
       <option name="VM_PARAMETERS" value="-Xmx10m -Xms10m -XX:+PrintGC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ic.learn.algorithm.exercise.test.*" />
+          <option name="PATTERN" value="com.ic.learn.others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinPathSum.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="InterestingCollection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ic.learn.algorithm.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ic.learn.algorithm.exercise" />
-      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.MinPathSum" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -217,6 +250,9 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="ClosedPackage.js" type="NodeJSConfigurationType" temporary="true" path-to-node="C:/Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="ClosedPackage.js" working-dir="$PROJECT_DIR$/src/main/webapp/js">
+      <method v="2" />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.50" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/IC" />
@@ -285,20 +321,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestEscapeAnalysis" />
-      <item itemvalue="Application.IsSubString" />
-      <item itemvalue="JUnit.MinPathSum.test" />
+      <item itemvalue="Application.CalculateObjectSize" />
       <item itemvalue="JUnit.RunningMen.test" />
       <item itemvalue="JUnit.RunningMen.test2" />
+      <item itemvalue="Node.js.ClosedPackage.js" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.50" />
-      <item itemvalue="Application.CalculateObjectSize" />
+      <item itemvalue="Application.DemoClass1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoClass1" />
+        <item itemvalue="Node.js.ClosedPackage.js" />
         <item itemvalue="Application.CalculateObjectSize" />
         <item itemvalue="JUnit.RunningMen.test" />
         <item itemvalue="JUnit.RunningMen.test2" />
-        <item itemvalue="Application.IsSubString" />
-        <item itemvalue="JUnit.MinPathSum.test" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +429,7 @@
       <workItem from="1595421272425" duration="6220000" />
       <workItem from="1595817130423" duration="2481000" />
       <workItem from="1595842228329" duration="3515000" />
-      <workItem from="1595848457760" duration="1422000" />
+      <workItem from="1595848457760" duration="12424000" />
     </task>
     <servers />
   </component>
@@ -416,6 +452,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="768" y="217" key="#ClosedPackage.js" timestamp="1595928480933">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="768" y="217" key="#ClosedPackage.js/0.0.1920.1040@0.0.1920.1040" timestamp="1595928480933" />
     <state x="629" y="134" key="#IsSubString" timestamp="1595842590882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -448,10 +488,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="696" y="257" key="#Web_Browsers/0.0.1920.1050@0.0.1920.1050" timestamp="1592278578327" />
-    <state x="236" y="303" width="1092" height="528" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595848797657">
+    <state x="236" y="303" width="1092" height="541" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595928955267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="236" y="303" width="1092" height="528" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595848797657" />
+    <state x="236" y="303" width="1092" height="541" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595928955267" />
     <state x="329" y="138" width="1106" height="781" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592811841140" />
     <state x="649" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588489236353">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -473,6 +513,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="571" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1587432079891" />
+    <state x="847" y="426" width="438" height="249" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595932664475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="847" y="426" width="438" height="249" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1595932664475" />
     <state x="714" y="398" width="414" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1588378852139">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -485,30 +529,34 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="394" height="582" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1588866247597" />
-    <state x="690" y="267" key="FileChooserDialogImpl" timestamp="1595842457550">
+    <state x="642" y="316" key="EnvironmentVariablesDialog" timestamp="1595928814160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595842457550" />
+    <state x="642" y="316" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595928814160" />
+    <state x="690" y="267" key="FileChooserDialogImpl" timestamp="1595928951958">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595928951958" />
     <state x="690" y="270" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592278519937" />
-    <state width="264" height="919" key="GridCell.Tab.0.bottom" timestamp="1595849618069">
+    <state width="457" height="707" key="GridCell.Tab.0.bottom" timestamp="1595929410743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="264" height="919" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595849618069" />
+    <state width="457" height="707" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595929410743" />
     <state width="1867" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="264" height="919" key="GridCell.Tab.0.center" timestamp="1595849618068">
+    <state width="457" height="707" key="GridCell.Tab.0.center" timestamp="1595929410743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="264" height="919" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595849618068" />
+    <state width="457" height="707" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595929410743" />
     <state width="1867" height="127" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="264" height="919" key="GridCell.Tab.0.left" timestamp="1595849618068">
+    <state width="457" height="707" key="GridCell.Tab.0.left" timestamp="1595929410743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="264" height="919" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595849618068" />
+    <state width="457" height="707" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595929410743" />
     <state width="1867" height="127" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="264" height="919" key="GridCell.Tab.0.right" timestamp="1595849618069">
+    <state width="457" height="707" key="GridCell.Tab.0.right" timestamp="1595929410743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="264" height="919" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595849618069" />
+    <state width="457" height="707" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595929410743" />
     <state width="1867" height="127" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
     <state width="1867" height="390" key="GridCell.Tab.1.bottom" timestamp="1595472833880">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -563,6 +611,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="627" y="251" key="extract.method.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1588600854337" />
+    <state x="499" y="384" key="jetbrains.nodejs.interpreters-dialog" timestamp="1595928636734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="499" y="384" key="jetbrains.nodejs.interpreters-dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595928636734" />
     <state x="162" y="58" key="new project wizard" timestamp="1595842442149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -589,17 +641,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/classic/GetTranslation.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/GetTranslation.java</url>
           <line>34</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/classic/GetTranslation.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/GetTranslation.java</url>
           <line>28</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/classic/GetTranslation.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/GetTranslation.java</url>
           <line>26</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
