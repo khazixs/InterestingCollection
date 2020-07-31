@@ -1,7 +1,5 @@
 package com.ic.learn.algorithm.exercise;
 
-import javax.xml.transform.Source;
-
 public class IsSubString {
     public static boolean isSubsequence(String s, String t) {
         int lenS = s.length();
@@ -10,7 +8,7 @@ public class IsSubString {
             return false;
         }
         int indexS = 0,indexT = 0;
-        boolean get = false;
+        boolean get;
         while (indexT<lenT){
             char target = t.charAt(indexT++);
             get = false;

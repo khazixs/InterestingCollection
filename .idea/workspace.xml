@@ -5,6 +5,9 @@
       <artifact name="InterestingCollection:war" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -25,15 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eed7eb02-d3fc-487f-82bd-06f1c8aaed1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/IsSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/MinNumInRotaryArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/MinPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/QueueBaseOnStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/InterestingCollection-master.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/InterestingCollection.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/annotation/aop/OutputAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/annotation/aop/OutputAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/InterestingCollection.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingCollection.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/IsSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/IsSubString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +71,13 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\IntelliJ IDEA 2020.1.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1aIMunV8ErybWNQyppPP9WMzoBm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -285,10 +289,10 @@
     <list>
       <item itemvalue="Application.QueueBaseOnStack" />
       <item itemvalue="Application.MinNumInRotaryArray" />
+      <item itemvalue="Application.IsSubString" />
       <item itemvalue="JUnit.TestStudentService.test" />
       <item itemvalue="JUnit.MinPathSum.test" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.50" />
-      <item itemvalue="Application.IsSubString" />
     </list>
     <recent_temporary>
       <list>
@@ -300,6 +304,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringGeneralSettings">
     <option name="allowAutoConfigurationMode" value="true" />
   </component>
@@ -389,12 +394,15 @@
       <workItem from="1594885663266" duration="18045000" />
       <workItem from="1595250662547" duration="2166000" />
       <workItem from="1595421272425" duration="6220000" />
-      <workItem from="1595817130423" duration="2481000" />
+      <workItem from="1595817130423" duration="3735000" />
+      <workItem from="1596112488520" duration="981000" />
+      <workItem from="1596113683231" duration="598000" />
+      <workItem from="1596161536363" duration="1193000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -476,26 +484,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="270" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592278519937" />
-    <state width="1867" height="127" key="GridCell.Tab.0.bottom" timestamp="1595819338138">
+    <state width="1867" height="270" key="GridCell.Tab.0.bottom" timestamp="1595870067108">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594001202615" />
-    <state width="1867" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="1867" height="127" key="GridCell.Tab.0.center" timestamp="1595819338138">
+    <state width="1867" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595870067108" />
+    <state width="1867" height="270" key="GridCell.Tab.0.center" timestamp="1595870067107">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594001202615" />
-    <state width="1867" height="127" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="1867" height="127" key="GridCell.Tab.0.left" timestamp="1595819338138">
+    <state width="1867" height="270" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595870067107" />
+    <state width="1867" height="270" key="GridCell.Tab.0.left" timestamp="1595870067107">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594001202615" />
-    <state width="1867" height="127" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="1867" height="127" key="GridCell.Tab.0.right" timestamp="1595819338138">
+    <state width="1867" height="270" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595870067107" />
+    <state width="1867" height="270" key="GridCell.Tab.0.right" timestamp="1595870067107">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594001202615" />
-    <state width="1867" height="127" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
+    <state width="1867" height="270" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595870067107" />
     <state width="1867" height="390" key="GridCell.Tab.1.bottom" timestamp="1595472833880">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
