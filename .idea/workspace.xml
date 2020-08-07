@@ -28,12 +28,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eed7eb02-d3fc-487f-82bd-06f1c8aaed1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/FindOutAllPalindromePairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/Rob3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterestingCollection.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/LevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/LevelOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/LevelOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/LevelOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/FindOutAllPalindromePairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/FindOutAllPalindromePairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试准备文档.md" beforeDir="false" afterPath="$PROJECT_DIR$/面试准备文档.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../wanxiangzc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -142,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindOutAllPalindromePairs.test">
+  <component name="RunManager" selected="JUnit.FindOutAllPalindromePairs.test2">
     <configuration name="TestEscapeAnalysis" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ic.learn.others.TestEscapeAnalysis" />
       <module name="InterestingCollection-master" />
@@ -150,19 +148,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ic.learn.algorithm.important.Search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bp01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.important.backpack.bp01" />
-      <module name="InterestingCollection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ic.learn.algorithm.important.backpack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,15 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -207,6 +190,22 @@
       <option name="PACKAGE_NAME" value="com.ic.learn.algorithm.exercise" />
       <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.FindOutAllPalindromePairs" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindOutAllPalindromePairs.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InterestingCollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ic.learn.algorithm.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ic.learn.algorithm.exercise" />
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.FindOutAllPalindromePairs" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -310,20 +309,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestEscapeAnalysis" />
-      <item itemvalue="Application.bp01" />
       <item itemvalue="Application.bpComplete" />
       <item itemvalue="JUnit.Rob3.test" />
       <item itemvalue="JUnit.Rob3" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.50" />
       <item itemvalue="JUnit.FindOutAllPalindromePairs.test" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.50" />
+      <item itemvalue="JUnit.FindOutAllPalindromePairs.test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindOutAllPalindromePairs.test2" />
         <item itemvalue="JUnit.FindOutAllPalindromePairs.test" />
         <item itemvalue="JUnit.Rob3.test" />
         <item itemvalue="JUnit.Rob3" />
         <item itemvalue="Application.bpComplete" />
-        <item itemvalue="Application.bp01" />
       </list>
     </recent_temporary>
   </component>
@@ -424,6 +423,7 @@
       <workItem from="1595842228329" duration="3515000" />
       <workItem from="1595848457760" duration="12424000" />
       <workItem from="1596684387822" duration="3535000" />
+      <workItem from="1596800283913" duration="2790000" />
     </task>
     <servers />
   </component>
@@ -532,25 +532,25 @@
     </state>
     <state x="690" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596697634524" />
     <state x="690" y="270" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592278519937" />
-    <state width="538" height="912" key="GridCell.Tab.0.bottom" timestamp="1596698406595">
+    <state width="538" height="912" key="GridCell.Tab.0.bottom" timestamp="1596802636953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="538" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596698406595" />
+    <state width="538" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596802636953" />
     <state width="1867" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="538" height="912" key="GridCell.Tab.0.center" timestamp="1596698406595">
+    <state width="538" height="912" key="GridCell.Tab.0.center" timestamp="1596802636953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="538" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596698406595" />
+    <state width="538" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596802636953" />
     <state width="1867" height="127" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="538" height="912" key="GridCell.Tab.0.left" timestamp="1596698406595">
+    <state width="538" height="912" key="GridCell.Tab.0.left" timestamp="1596802636952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="538" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596698406595" />
+    <state width="538" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596802636952" />
     <state width="1867" height="127" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="538" height="912" key="GridCell.Tab.0.right" timestamp="1596698406595">
+    <state width="538" height="912" key="GridCell.Tab.0.right" timestamp="1596802636953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="538" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596698406595" />
+    <state width="538" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596802636953" />
     <state width="1867" height="127" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1596599766600">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -663,6 +663,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/useDelayQueue/StudentTask.java</url>
           <line>22</line>
           <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/FindOutAllPalindromePairs.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -5,6 +5,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Stack;
 
 public class FindOutAllPalindromePairs {
     List<List<Integer>> result = new ArrayList<>();
@@ -49,4 +50,16 @@ public class FindOutAllPalindromePairs {
             System.out.println(Arrays.toString(r.toArray()));
         }
     }
+
+    @Test
+    public void test2() {
+            int[] nums = new int[]{1,2,3,3,3,4,4,5};
+            int i = 0;
+            for (int j = 1; j < nums.length; j++) {
+                if (nums[j] != nums[i]) {
+                    i++;
+                    nums[i] = nums[j];
+                }
+            }
+        }
 }
