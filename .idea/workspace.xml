@@ -28,10 +28,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eed7eb02-d3fc-487f-82bd-06f1c8aaed1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/InterestingCollection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/Solve.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/FindOutAllPalindromePairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/FindOutAllPalindromePairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/面试准备文档.md" beforeDir="false" afterPath="$PROJECT_DIR$/面试准备文档.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/FindOutAllPalindromePairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/FindOutAllPalindromePairs.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindOutAllPalindromePairs.test2">
+  <component name="RunManager" selected="JUnit.RestoreIpAddresses.test">
     <configuration name="TestEscapeAnalysis" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ic.learn.others.TestEscapeAnalysis" />
       <module name="InterestingCollection-master" />
@@ -148,19 +148,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ic.learn.algorithm.important.Search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bpComplete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.important.backpack.bpComplete" />
-      <module name="InterestingCollection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ic.learn.algorithm.important.backpack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,6 +193,22 @@
       <option name="PACKAGE_NAME" value="com.ic.learn.algorithm.exercise" />
       <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.FindOutAllPalindromePairs" />
       <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestoreIpAddresses.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InterestingCollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ic.learn.algorithm.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ic.learn.algorithm.exercise" />
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.RestoreIpAddresses" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -309,20 +312,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestEscapeAnalysis" />
-      <item itemvalue="Application.bpComplete" />
       <item itemvalue="JUnit.Rob3.test" />
       <item itemvalue="JUnit.Rob3" />
       <item itemvalue="JUnit.FindOutAllPalindromePairs.test" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.50" />
       <item itemvalue="JUnit.FindOutAllPalindromePairs.test2" />
+      <item itemvalue="JUnit.RestoreIpAddresses.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RestoreIpAddresses.test" />
         <item itemvalue="JUnit.FindOutAllPalindromePairs.test2" />
         <item itemvalue="JUnit.FindOutAllPalindromePairs.test" />
         <item itemvalue="JUnit.Rob3.test" />
         <item itemvalue="JUnit.Rob3" />
-        <item itemvalue="Application.bpComplete" />
       </list>
     </recent_temporary>
   </component>
@@ -423,7 +426,7 @@
       <workItem from="1595842228329" duration="3515000" />
       <workItem from="1595848457760" duration="12424000" />
       <workItem from="1596684387822" duration="3535000" />
-      <workItem from="1596800283913" duration="2790000" />
+      <workItem from="1596800283913" duration="14213000" />
     </task>
     <servers />
   </component>
@@ -503,10 +506,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1589935734381" />
-    <state x="580" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1596512507732">
+    <state x="580" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1597144645720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="580" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596512507732" />
+    <state x="580" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597144645720" />
     <state x="847" y="426" width="438" height="249" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595932664475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -532,45 +535,45 @@
     </state>
     <state x="690" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596697634524" />
     <state x="690" y="270" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592278519937" />
-    <state width="538" height="912" key="GridCell.Tab.0.bottom" timestamp="1596802636953">
+    <state width="567" height="919" key="GridCell.Tab.0.bottom" timestamp="1597147826449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="538" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596802636953" />
+    <state width="567" height="919" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597147826449" />
     <state width="1867" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="538" height="912" key="GridCell.Tab.0.center" timestamp="1596802636953">
+    <state width="567" height="919" key="GridCell.Tab.0.center" timestamp="1597147826449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="538" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596802636953" />
+    <state width="567" height="919" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597147826449" />
     <state width="1867" height="127" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="538" height="912" key="GridCell.Tab.0.left" timestamp="1596802636952">
+    <state width="567" height="919" key="GridCell.Tab.0.left" timestamp="1597147826449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="538" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596802636952" />
+    <state width="567" height="919" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597147826449" />
     <state width="1867" height="127" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="538" height="912" key="GridCell.Tab.0.right" timestamp="1596802636953">
+    <state width="567" height="919" key="GridCell.Tab.0.right" timestamp="1597147826449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="538" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596802636953" />
+    <state width="567" height="919" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597147826449" />
     <state width="1867" height="127" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1596599766600">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1597144426998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596599766600" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597144426998" />
     <state width="1867" height="390" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595472833880" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1596599766600">
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1597144426998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596599766600" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597144426998" />
     <state width="1867" height="390" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595472833880" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1596599766600">
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1597144426998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596599766600" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597144426998" />
     <state width="1867" height="390" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595472833880" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1596599766600">
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1597144426998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596599766600" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597144426998" />
     <state width="1867" height="390" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595472833880" />
     <state width="1555" height="247" key="GridCell.Tab.2.bottom" timestamp="1592370470000">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -626,10 +629,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="532" y="239" width="840" height="1034" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1589935606677" />
-    <state x="539" y="15" width="840" height="1025" key="search.everywhere.popup" timestamp="1596684670647">
+    <state x="539" y="15" width="840" height="1025" key="search.everywhere.popup" timestamp="1596939888779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="15" width="840" height="1025" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596684670647" />
+    <state x="539" y="15" width="840" height="1025" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596939888779" />
     <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1592363893902" />
     <state x="640" y="147" key="spring file set editor" timestamp="1588230860972">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -663,11 +666,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/ic/learn/concurrent/useDelayQueue/StudentTask.java</url>
           <line>22</line>
           <option name="timeStamp" value="95" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/FindOutAllPalindromePairs.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="97" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
