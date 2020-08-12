@@ -5,12 +5,12 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-class TreeNode {
+class TreeNode1 {
     int val;
-    TreeNode left;
-    TreeNode right;
+    TreeNode1 left;
+    TreeNode1 right;
 
-    TreeNode(int x) {
+    TreeNode1(int x) {
         val = x;
     }
 }
@@ -20,18 +20,18 @@ public class LevelOrder {
 
     }
 
-    public List<List<Integer>> levelOrder(TreeNode root) {
+    public List<List<Integer>> levelOrder(TreeNode1 root) {
         if (root == null) {
             return new ArrayList<>();
         }
         List<List<Integer>> res = new ArrayList<>();
         List<Integer> list = new ArrayList<>();
-        Queue<TreeNode> queue = new LinkedList<>();
+        Queue<TreeNode1> queue = new LinkedList<>();
         queue.offer(root);
         while (!queue.isEmpty()) {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
-                TreeNode temp = queue.remove();
+                TreeNode1 temp = queue.remove();
                 list.add(temp.val);
                 if (temp.left != null) {
                     queue.offer(temp.left);
