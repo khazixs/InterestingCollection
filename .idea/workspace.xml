@@ -28,10 +28,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eed7eb02-d3fc-487f-82bd-06f1c8aaed1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/Divide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/TestConcurrent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/InterestingCollection_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/InterestingCollection_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/RestoreIpAddresses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/Divide.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/Divide.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/面试准备文档.md" beforeDir="false" afterPath="$PROJECT_DIR$/面试准备文档.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,13 +142,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Divide.test">
+  <component name="RunManager" selected="Application.TestConcurrent">
     <configuration name="Multiply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.Multiply" />
       <module name="InterestingCollection" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ic.learn.algorithm.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConcurrent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.others.TestConcurrent" />
+      <module name="InterestingCollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ic.learn.others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,6 +183,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Divide.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InterestingCollection" />
       <extension name="coverage">
@@ -179,22 +204,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ic.learn.algorithm.exercise" />
       <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.Divide" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindOutAllPalindromePairs.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="InterestingCollection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ic.learn.algorithm.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ic.learn.algorithm.exercise" />
-      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.FindOutAllPalindromePairs" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -301,19 +310,19 @@
     <list>
       <item itemvalue="Application.TestEscapeAnalysis" />
       <item itemvalue="Application.Multiply" />
-      <item itemvalue="JUnit.FindOutAllPalindromePairs.test" />
       <item itemvalue="JUnit.FindOutAllPalindromePairs.test2" />
       <item itemvalue="JUnit.RestoreIpAddresses.test" />
       <item itemvalue="JUnit.Divide.test" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.50" />
+      <item itemvalue="Application.TestConcurrent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestConcurrent" />
         <item itemvalue="JUnit.Divide.test" />
         <item itemvalue="Application.Multiply" />
         <item itemvalue="JUnit.RestoreIpAddresses.test" />
         <item itemvalue="JUnit.FindOutAllPalindromePairs.test2" />
-        <item itemvalue="JUnit.FindOutAllPalindromePairs.test" />
       </list>
     </recent_temporary>
   </component>
@@ -416,6 +425,7 @@
       <workItem from="1596684387822" duration="3535000" />
       <workItem from="1596800283913" duration="14497000" />
       <workItem from="1597301623881" duration="6127000" />
+      <workItem from="1597405697846" duration="7434000" />
     </task>
     <servers />
   </component>
@@ -479,9 +489,10 @@
     </state>
     <state x="236" y="303" width="1092" height="541" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595928955267" />
     <state x="329" y="138" width="1106" height="781" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592811841140" />
-    <state x="449" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1595160440738">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="449" y="189" key="#com.intellij.ide.util.MemberChooser" timestamp="1597411240842">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="449" y="189" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597411240842" />
     <state x="449" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1595160440738" />
     <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1589935734381">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -508,25 +519,25 @@
     </state>
     <state x="690" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597149671709" />
     <state x="690" y="270" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592278519937" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1597305281176">
+    <state width="408" height="912" key="GridCell.Tab.0.bottom" timestamp="1597412895520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597305281176" />
+    <state width="408" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597412895520" />
     <state width="1867" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1597305281175">
+    <state width="408" height="912" key="GridCell.Tab.0.center" timestamp="1597412895520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597305281175" />
+    <state width="408" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597412895520" />
     <state width="1867" height="127" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1597305281175">
+    <state width="408" height="912" key="GridCell.Tab.0.left" timestamp="1597412895520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597305281175" />
+    <state width="408" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597412895520" />
     <state width="1867" height="127" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1597305281175">
+    <state width="408" height="912" key="GridCell.Tab.0.right" timestamp="1597412895520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597305281175" />
+    <state width="408" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597412895520" />
     <state width="1867" height="127" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1597305281875">
       <screen x="0" y="0" width="1920" height="1040" />
