@@ -27,14 +27,41 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="eed7eb02-d3fc-487f-82bd-06f1c8aaed1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/面试准备文档.md" beforeDir="false" afterPath="$PROJECT_DIR$/面试准备文档.md" afterDir="false" />
+=======
+    <list default="true" id="65a263db-1279-4ddd-b5a6-cd0f373e4384" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/Game24Points.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/GetCoinCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/Solve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/SolveFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/others/TestLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ic/learn/algorithm/exercise/RestoreIpAddresses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/FindOutAllPalindromePairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/FindOutAllPalindromePairs.java" afterDir="false" />
+>>>>>>> 37fc4e6fec4b9793db9f9010cf3d8b1378e57f05
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,7 +69,6 @@
         <option value="HTML File" />
         <option value="FxmlFile" />
         <option value="HTTP Public Environment File" />
-        <option value="JavaScript File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -84,7 +110,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ElectricityMarketManagementPlatform_Server" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,16 +120,28 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5455382" />
     <property name="rest.client.default.execution.environment" value="dev" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\project\InterestingCollection\src\main\resources\com\ic\webCrawlers\dao" />
+      <recent name="F:\project\InterestingCollection\src\main\resources" />
+      <recent name="F:\project\InterestingCollection\src\main\resources\log" />
+      <recent name="F:\project\InterestingCollection\src\main\webapp\WEB-INF" />
+      <recent name="F:\project\InterestingCollection\src\main\resources\com" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ic.learn" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ic.userManagement.utils" />
+      <recent name="com.ic.learn.algorithm.aboutString" />
+      <recent name="com.ic.learn.algorithm.aboutTree" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\project\InterestingCollection\src\main\java\com\ic\learn\algorithm\exercise" />
@@ -111,18 +149,6 @@
       <recent name="F:\project\InterestingCollections\src\main\java\com\ic\learn\algorithm\aboutTree" />
       <recent name="F:\project\InterestingCollections\src\test\java\com\ic" />
       <recent name="F:\project\InterestingCollections\src\main\resources\com\ic" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ic.userManagement.utils" />
-      <recent name="com.ic.learn.algorithm.aboutString" />
-      <recent name="com.ic.learn.algorithm.aboutTree" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\project\InterestingCollection-master\src\main\resources\spring" />
-      <recent name="E:\project\InterestingCollection-master\src\main\resources\com\ic\userManagement" />
-      <recent name="F:\project\InterestingCollection\src\main\resources\com\ic\webCrawlers\dao" />
-      <recent name="F:\project\InterestingCollection\src\main\resources" />
-      <recent name="F:\project\InterestingCollection\src\main\resources\log" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -138,22 +164,15 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.TestConcurrent">
     <configuration name="Multiply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.Multiply" />
       <module name="InterestingCollection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ic.learn.algorithm.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestConcurrent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ic.learn.others.TestConcurrent" />
+=======
+  <component name="RunManager" selected="Application.SolveFiles">
+    <configuration name="SolveFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.others.SolveFiles" />
       <module name="InterestingCollection" />
       <extension name="coverage">
         <pattern>
@@ -169,9 +188,33 @@
       <option name="MAIN_CLASS_NAME" value="com.ic.learn.others.TestEscapeAnalysis" />
       <module name="InterestingCollection-master" />
       <option name="VM_PARAMETERS" value="-Xmx10m -Xms10m -XX:+PrintGC" />
+>>>>>>> 37fc4e6fec4b9793db9f9010cf3d8b1378e57f05
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ic.learn.algorithm.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="TestConcurrent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.others.TestConcurrent" />
+      <module name="InterestingCollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ic.learn.others.*" />
+=======
+    <configuration name="TestEscapeAnalysis" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.others.TestEscapeAnalysis" />
+      <module name="InterestingCollection-master" />
+      <option name="VM_PARAMETERS" value="-Xmx10m -Xms10m -XX:+PrintGC" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ic.learn.algorithm.important.Search.*" />
+>>>>>>> 37fc4e6fec4b9793db9f9010cf3d8b1378e57f05
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,7 +222,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="TestEscapeAnalysis" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.others.TestEscapeAnalysis" />
+      <module name="InterestingCollection-master" />
+      <option name="VM_PARAMETERS" value="-Xmx10m -Xms10m -XX:+PrintGC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ic.learn.algorithm.important.Search.*" />
+=======
+    <configuration name="TestLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.others.TestLock" />
+      <module name="InterestingCollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ic.learn.others.*" />
+>>>>>>> 37fc4e6fec4b9793db9f9010cf3d8b1378e57f05
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
     <configuration name="Divide.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetCoinCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 37fc4e6fec4b9793db9f9010cf3d8b1378e57f05
       <module name="InterestingCollection" />
       <extension name="coverage">
         <pattern>
@@ -188,14 +269,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ic.learn.algorithm.exercise" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.Divide" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
+=======
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.GetCoinCount" />
+      <option name="TEST_OBJECT" value="class" />
+>>>>>>> 37fc4e6fec4b9793db9f9010cf3d8b1378e57f05
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="FindOutAllPalindromePairs.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="GetCoinCount.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 37fc4e6fec4b9793db9f9010cf3d8b1378e57f05
       <module name="InterestingCollection" />
       <extension name="coverage">
         <pattern>
@@ -204,23 +294,37 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ic.learn.algorithm.exercise" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.FindOutAllPalindromePairs" />
       <option name="METHOD_NAME" value="test2" />
+=======
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.GetCoinCount" />
+      <option name="METHOD_NAME" value="test" />
+>>>>>>> 37fc4e6fec4b9793db9f9010cf3d8b1378e57f05
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="RestoreIpAddresses.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="SolveFiles.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 37fc4e6fec4b9793db9f9010cf3d8b1378e57f05
       <module name="InterestingCollection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ic.learn.algorithm.exercise.*" />
+          <option name="PATTERN" value="com.ic.learn.others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
       <option name="PACKAGE_NAME" value="com.ic.learn.algorithm.exercise" />
       <option name="MAIN_CLASS_NAME" value="com.ic.learn.algorithm.exercise.RestoreIpAddresses" />
+=======
+      <option name="PACKAGE_NAME" value="com.ic.learn.others" />
+      <option name="MAIN_CLASS_NAME" value="com.ic.learn.others.SolveFiles" />
+>>>>>>> 37fc4e6fec4b9793db9f9010cf3d8b1378e57f05
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -294,20 +398,36 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestEscapeAnalysis" />
+<<<<<<< HEAD
       <item itemvalue="Application.Multiply" />
       <item itemvalue="Application.TestConcurrent" />
       <item itemvalue="JUnit.FindOutAllPalindromePairs.test2" />
       <item itemvalue="JUnit.RestoreIpAddresses.test" />
       <item itemvalue="JUnit.Divide.test" />
+=======
+      <item itemvalue="Application.SolveFiles" />
+      <item itemvalue="Application.TestLock" />
+      <item itemvalue="JUnit.GetCoinCount.test" />
+      <item itemvalue="JUnit.GetCoinCount" />
+      <item itemvalue="JUnit.SolveFiles.test" />
+>>>>>>> 37fc4e6fec4b9793db9f9010cf3d8b1378e57f05
       <item itemvalue="Tomcat Server.Tomcat 8.5.50" />
     </list>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.TestConcurrent" />
         <item itemvalue="JUnit.Divide.test" />
         <item itemvalue="Application.Multiply" />
         <item itemvalue="JUnit.RestoreIpAddresses.test" />
         <item itemvalue="JUnit.FindOutAllPalindromePairs.test2" />
+=======
+        <item itemvalue="Application.SolveFiles" />
+        <item itemvalue="Application.TestLock" />
+        <item itemvalue="JUnit.SolveFiles.test" />
+        <item itemvalue="JUnit.GetCoinCount.test" />
+        <item itemvalue="JUnit.GetCoinCount" />
+>>>>>>> 37fc4e6fec4b9793db9f9010cf3d8b1378e57f05
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +440,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eed7eb02-d3fc-487f-82bd-06f1c8aaed1d" name="Default Changelist" comment="" />
+      <changelist id="65a263db-1279-4ddd-b5a6-cd0f373e4384" name="Default Changelist" comment="" />
       <created>1586418879128</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -400,6 +520,17 @@
       <workItem from="1594799211898" duration="14065000" />
       <workItem from="1594885663266" duration="18045000" />
       <workItem from="1595250662547" duration="2166000" />
+      <workItem from="1595421272425" duration="6220000" />
+      <workItem from="1595817130423" duration="3735000" />
+      <workItem from="1596112488520" duration="981000" />
+      <workItem from="1596113683231" duration="598000" />
+      <workItem from="1596161536363" duration="2404000" />
+      <workItem from="1596181265373" duration="340000" />
+      <workItem from="1596249701958" duration="5963000" />
+      <workItem from="1596465164797" duration="1528000" />
+      <workItem from="1596590409499" duration="1215000" />
+      <workItem from="1596963800699" duration="2241000" />
+      <workItem from="1597025917559" duration="3559000" />
       <workItem from="1595817130423" duration="3735000" />
       <workItem from="1596112488520" duration="981000" />
       <workItem from="1596113683231" duration="598000" />
@@ -408,10 +539,18 @@
       <workItem from="1595842228329" duration="3515000" />
       <workItem from="1595848457760" duration="12424000" />
       <workItem from="1596684387822" duration="3535000" />
+<<<<<<< HEAD
       <workItem from="1596800283913" duration="14497000" />
       <workItem from="1597301623881" duration="6127000" />
       <workItem from="1597405697846" duration="7434000" />
       <workItem from="1597665535422" duration="576000" />
+=======
+      <workItem from="1596800283913" duration="14213000" />
+      <workItem from="1597370716637" duration="3718000" />
+      <workItem from="1597386484937" duration="1777000" />
+      <workItem from="1597486946481" duration="2538000" />
+      <workItem from="1597655659331" duration="659000" />
+>>>>>>> 37fc4e6fec4b9793db9f9010cf3d8b1378e57f05
     </task>
     <servers />
   </component>
@@ -434,14 +573,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="768" y="217" key="#ClosedPackage.js" timestamp="1595928480933">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="768" y="217" key="#ClosedPackage.js/0.0.1920.1040@0.0.1920.1040" timestamp="1595928480933" />
-    <state x="629" y="134" key="#IsSubString" timestamp="1595842590882">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="629" y="134" key="#IsSubString/0.0.1920.1040@0.0.1920.1040" timestamp="1595842590882" />
     <state x="552" y="166" key="#Plugins" timestamp="1592276310088">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -454,10 +585,6 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="452" y="105" key="#SQL_Dialects/0.0.1920.1050@0.0.1920.1050" timestamp="1591437783559" />
-    <state x="629" y="134" key="#TestEscapeAnalysis" timestamp="1595848625428">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="629" y="134" key="#TestEscapeAnalysis/0.0.1920.1040@0.0.1920.1040" timestamp="1595848625428" />
     <state x="610" y="0" width="785" height="1050" key="#Tomcat_8.5.50" timestamp="1592279286050">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -470,6 +597,7 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="696" y="257" key="#Web_Browsers/0.0.1920.1050@0.0.1920.1050" timestamp="1592278578327" />
+<<<<<<< HEAD
     <state x="236" y="303" width="1092" height="541" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595928955267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -480,6 +608,16 @@
     </state>
     <state x="449" y="189" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597411240842" />
     <state x="449" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1595160440738" />
+=======
+    <state x="329" y="138" width="1106" height="781" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592811841140">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="329" y="138" width="1106" height="781" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592811841140" />
+    <state x="449" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1597372311991">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="449" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1597372311991" />
+>>>>>>> 37fc4e6fec4b9793db9f9010cf3d8b1378e57f05
     <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1589935734381">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -500,6 +638,7 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="642" y="316" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595928814160" />
+<<<<<<< HEAD
     <state x="690" y="267" key="FileChooserDialogImpl" timestamp="1597149671709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -526,6 +665,34 @@
     <state width="408" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597412895520" />
     <state width="1867" height="127" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595819338138" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1597305281875">
+=======
+    <state x="690" y="270" key="FileChooserDialogImpl" timestamp="1597494848353">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596697634524" />
+    <state x="690" y="270" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1597494848353" />
+    <state width="1867" height="529" key="GridCell.Tab.0.bottom" timestamp="1597374194630">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="567" height="919" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597147826449" />
+    <state width="1867" height="529" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597374194630" />
+    <state width="1867" height="529" key="GridCell.Tab.0.center" timestamp="1597374194628">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="567" height="919" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597147826449" />
+    <state width="1867" height="529" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597374194628" />
+    <state width="1867" height="529" key="GridCell.Tab.0.left" timestamp="1597374194627">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="567" height="919" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597147826449" />
+    <state width="1867" height="529" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597374194627" />
+    <state width="1867" height="529" key="GridCell.Tab.0.right" timestamp="1597374194629">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="567" height="919" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597147826449" />
+    <state width="1867" height="529" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597374194629" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1597144426998">
+>>>>>>> 37fc4e6fec4b9793db9f9010cf3d8b1378e57f05
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597305281875" />
@@ -565,19 +732,24 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1595842648435" />
+    <state x="521" y="119" key="Maven.ArtifactSearchDialog" timestamp="1597372005416">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="521" y="119" key="Maven.ArtifactSearchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1597372005416" />
     <state x="827" y="294" key="NewModule_or_Project.wizard" timestamp="1595842471661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="827" y="294" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1595842471661" />
-    <state x="667" y="165" width="1141" height="883" key="SettingsEditor" timestamp="1596529126109">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="667" y="167" width="1141" height="883" key="SettingsEditor" timestamp="1597373064000">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="667" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596529126109" />
-    <state x="667" y="167" width="1141" height="883" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1594801209693" />
+    <state x="667" y="167" width="1141" height="883" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1597373064000" />
     <state x="418" y="204" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1590807096809">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="418" y="204" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1050@0.0.1920.1050" timestamp="1590807096809" />
+<<<<<<< HEAD
     <state x="499" y="384" key="jetbrains.nodejs.interpreters-dialog" timestamp="1595928636734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -586,6 +758,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="162" y="58" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1597149686373" />
+=======
+    <state x="162" y="59" key="new project wizard" timestamp="1589249371453">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+>>>>>>> 37fc4e6fec4b9793db9f9010cf3d8b1378e57f05
     <state x="162" y="59" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1589249371453" />
     <state x="642" y="93" key="refactoring.ChangeSignatureDialog" timestamp="1590312041412">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -605,17 +782,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/GetTranslation.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/classic/GetTranslation.java</url>
           <line>34</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/GetTranslation.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/classic/GetTranslation.java</url>
           <line>28</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/exercise/GetTranslation.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/ic/learn/algorithm/classic/GetTranslation.java</url>
           <line>26</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>

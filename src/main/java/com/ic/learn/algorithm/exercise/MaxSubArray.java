@@ -6,26 +6,26 @@ public class MaxSubArray {
         System.out.println(maxSubArray(nums));
     }
 
-    public static int maxSubArray(int[] numbers) {
+    public static int maxSubArray(int[] nums) {
         int maxNegative = Integer.MIN_VALUE;
         int res = Integer.MIN_VALUE;
         int sum = 0;
         int start = 0;
         int end = 0;
-        while (start < numbers.length) {
-            if (numbers[start] < 0) {
-                if (numbers[start] > maxNegative) {
-                    maxNegative = numbers[start];
+        while (start < nums.length) {
+            if (nums[start] < 0) {
+                if (nums[start] > maxNegative) {
+                    maxNegative = nums[start];
                 }
                 start++;
                 continue;
             }
             end = start;
-            while (end < numbers.length) {
-                if (numbers[end] < 0 && numbers[end] > maxNegative) {
-                    maxNegative = numbers[end];
+            while (end < nums.length) {
+                if (nums[end] < 0 && nums[end] > maxNegative) {
+                    maxNegative = nums[end];
                 }
-                sum = sum + numbers[end];
+                sum = sum + nums[end];
                 if (sum > res) {
                     res = sum;
                 }
