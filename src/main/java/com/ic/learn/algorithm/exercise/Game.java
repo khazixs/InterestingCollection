@@ -299,9 +299,8 @@ public class Game {
 
 
     /*获取数据源*/
-    public static void getSourceData() {/*topoAndRequest9.txt   toPoInfo1.txt*/
+    public static void getSourceData() {
         try {
-//            BufferedReader in = new BufferedReader(new FileReader("F:\\project\\InterestingCollection\\src\\main\\resources\\doc\\topoAndRequest1.txt"));
             BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
             String s = in.readLine();
             String[] dataSize = s.split(",");//依次是站点数，轨道数，列车数，列车容量

@@ -58,10 +58,7 @@
           <element id="library" level="project" name="Maven: com.thetransactioncompany:cors-filter:2.5" />
           <element id="library" level="project" name="Maven: com.thetransactioncompany:java-property-utils:1.9.1" />
           <element id="library" level="project" name="Maven: org.apache.lucene:lucene-core:4.0.0" />
-<<<<<<< HEAD
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.9" />
-=======
->>>>>>> 37fc4e6fec4b9793db9f9010cf3d8b1378e57f05
         </element>
       </element>
       <element id="directory" name="META-INF">

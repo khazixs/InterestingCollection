@@ -1,8 +1,17 @@
 package com.ic.learn.others;
 
+import org.junit.Test;
+
+import java.util.Arrays;
+
 public class addString {
     public static void main(String[] args) {
         System.out.println(addStrings("999","0"));
+    }
+    @Test
+    public void test(){
+        int[][] r = new int[][]{{1,2,3},{4,5,6},{7,8,9}};
+        System.out.println(Arrays.deepToString(r));
     }
 
     public static String addStrings (String num1, String num2) {

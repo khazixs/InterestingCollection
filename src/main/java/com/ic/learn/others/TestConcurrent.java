@@ -1,9 +1,5 @@
 package com.ic.learn.others;
 
-import org.apache.commons.lang3.concurrent.BasicThreadFactory;
-import org.apache.logging.log4j.core.util.Cancellable;
-import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
-
 import java.util.concurrent.*;
 
 public class TestConcurrent {

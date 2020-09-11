@@ -3,6 +3,7 @@ package com.ic.learn.algorithm.exercise;
 import java.util.Stack;
 
 public class ValidParentheses {
+
     public boolean IsValidExp (String s) {
         Stack<Character> stack = new Stack<>();
         for (char c : s.toCharArray()){
@@ -17,5 +18,6 @@ public class ValidParentheses {
             }
         }
         return stack.isEmpty();
+
     }
 }
